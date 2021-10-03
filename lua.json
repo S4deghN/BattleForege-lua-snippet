@@ -1,0 +1,5692 @@
+{
+	// BF-Actions
+    "AbilityDestroy": 
+    {
+		"prefix": "AbilityDestroy (BF-Action)",
+		"body": [
+		  "AbilityDestroy\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "AbilitySpawn": 
+    {
+		"prefix": "AbilitySpawn (BF-Action)",
+		"body": [
+		  "AbilitySpawn\t{TargetTag = \"\", Team = \"tm_\", AbilityId = }"
+		],
+		"description": ""
+	},
+    
+    "AbilitySpawnIntoGroup": 
+    {
+		"prefix": "AbilitySpawnIntoGroup (BF-Action)",
+		"body": [
+		  "AbilitySpawnIntoGroup\t{Tag = \"default\", Group = \"\", TargetTag = \"\", Team = \"tm_\", AbilityId = }"
+		],
+		"description": ""
+	},
+    
+    "AbilitySpawnWithTag": 
+    {
+		"prefix": "AbilitySpawnWithTag (BF-Action)",
+		"body": [
+		  "AbilitySpawnWithTag\t{Tag = \"default\", TargetTag = \"\", Team = \"tm_\", AbilityId = }"
+		],
+		"description": ""
+	},
+    
+    "AbilityVanish": 
+    {
+		"prefix": "AbilityVanish (BF-Action)",
+		"body": [
+		  "AbilityVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "ArenaDummyRandom": 
+    {
+		"prefix": "ArenaDummyRandom (BF-Action)",
+		"body": [
+		  "ArenaDummyRandom\t{}"
+		],
+		"description": ""
+	},
+    
+    "AudioAmbientPlay": 
+    {
+		"prefix": "AudioAmbientPlay (BF-Action)",
+		"body": [
+		  "AudioAmbientPlay\t{Ambient = \"\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioMusicPlay": 
+    {
+		"prefix": "AudioMusicPlay (BF-Action)",
+		"body": [
+		  "AudioMusicPlay\t{Music = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioSoundFXPlay": 
+    {
+		"prefix": "AudioSoundFXPlay (BF-Action)",
+		"body": [
+		  "AudioSoundFXPlay\t{Sound = \"\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioSoundFXStop": 
+    {
+		"prefix": "AudioSoundFXStop (BF-Action)",
+		"body": [
+		  "AudioSoundFXStop\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioSoundUIPlay": 
+    {
+		"prefix": "AudioSoundUIPlay (BF-Action)",
+		"body": [
+		  "AudioSoundUIPlay\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioVoicePlay": 
+    {
+		"prefix": "AudioVoicePlay (BF-Action)",
+		"body": [
+		  "AudioVoicePlay\t{Voice = \"\", Volume = default}"
+		],
+		"description": ""
+	},
+    
+    "BarrierBuildOrRepair": 
+    {
+		"prefix": "BarrierBuildOrRepair (BF-Action)",
+		"body": [
+		  "BarrierBuildOrRepair\t{Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierDestroy": 
+    {
+		"prefix": "BarrierDestroy (BF-Action)",
+		"body": [
+		  "BarrierDestroy\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierGateClose": 
+    {
+		"prefix": "BarrierGateClose (BF-Action)",
+		"body": [
+		  "BarrierGateClose\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierGateOpen": 
+    {
+		"prefix": "BarrierGateOpen (BF-Action)",
+		"body": [
+		  "BarrierGateOpen\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierGateToggle": 
+    {
+		"prefix": "BarrierGateToggle (BF-Action)",
+		"body": [
+		  "BarrierGateToggle\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierVanish": 
+    {
+		"prefix": "BarrierVanish (BF-Action)",
+		"body": [
+		  "BarrierVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingAnimPlay": 
+    {
+		"prefix": "BuildingAnimPlay (BF-Action)",
+		"body": [
+		  "BuildingAnimPlay\t{Tag = \"default\", Anim = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingAnimPlayLooped": 
+    {
+		"prefix": "BuildingAnimPlayLooped (BF-Action)",
+		"body": [
+		  "BuildingAnimPlayLooped\t{Tag = \"default\", Anim = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingDestroy": 
+    {
+		"prefix": "BuildingDestroy (BF-Action)",
+		"body": [
+		  "BuildingDestroy\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingKillInRange": 
+    {
+		"prefix": "BuildingKillInRange (BF-Action)",
+		"body": [
+		  "BuildingKillInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeChange": 
+    {
+		"prefix": "BuildingModeChange (BF-Action)",
+		"body": [
+		  "BuildingModeChange\t{Tag = \"default\", ModeId = }"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeSetDisabled": 
+    {
+		"prefix": "BuildingModeSetDisabled (BF-Action)",
+		"body": [
+		  "BuildingModeSetDisabled\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeSetEnabled": 
+    {
+		"prefix": "BuildingModeSetEnabled (BF-Action)",
+		"body": [
+		  "BuildingModeSetEnabled\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeToggle": 
+    {
+		"prefix": "BuildingModeToggle (BF-Action)",
+		"body": [
+		  "BuildingModeToggle\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingRespawn": 
+    {
+		"prefix": "BuildingRespawn (BF-Action)",
+		"body": [
+		  "BuildingRespawn\t{Tag = \"default\", TargetTag = \"default\", HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingSpawn": 
+    {
+		"prefix": "BuildingSpawn (BF-Action)",
+		"body": [
+		  "BuildingSpawn\t{TargetTag = \"\", Team = \"tm_\", BuildingId = , Direction = default, HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingSpawnWithTag": 
+    {
+		"prefix": "BuildingSpawnWithTag (BF-Action)",
+		"body": [
+		  "BuildingSpawnWithTag\t{Tag = \"default\", TargetTag = \"\", Team = \"tm_\", BuildingId = , Direction = default, HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingTypeChange": 
+    {
+		"prefix": "BuildingTypeChange (BF-Action)",
+		"body": [
+		  "BuildingTypeChange\t{Tag = \"default\", BuildingId = }"
+		],
+		"description": ""
+	},
+    
+    "BuildingVanish": 
+    {
+		"prefix": "BuildingVanish (BF-Action)",
+		"body": [
+		  "BuildingVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "CameraCenterOnTarget": 
+    {
+		"prefix": "CameraCenterOnTarget (BF-Action)",
+		"body": [
+		  "CameraCenterOnTarget\t{TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneBegin": 
+    {
+		"prefix": "CutsceneBegin (BF-Action)",
+		"body": [
+		  "CutsceneBegin\t{Music = \"\", RenderOnly = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneCameraPlay": 
+    {
+		"prefix": "CutsceneCameraPlay (BF-Action)",
+		"body": [
+		  "CutsceneCameraPlay\t{Camera = \"\", TargetTag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneCameraPlayFullScreen": 
+    {
+		"prefix": "CutsceneCameraPlayFullScreen (BF-Action)",
+		"body": [
+		  "CutsceneCameraPlayFullScreen\t{Camera = \"\", TargetTag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneEnd": 
+    {
+		"prefix": "CutsceneEnd (BF-Action)",
+		"body": [
+		  "CutsceneEnd\t{}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneEntityTeleport": 
+    {
+		"prefix": "CutsceneEntityTeleport (BF-Action)",
+		"body": [
+		  "CutsceneEntityTeleport\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneRenderAll": 
+    {
+		"prefix": "CutsceneRenderAll (BF-Action)",
+		"body": [
+		  "CutsceneRenderAll\t{}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneRenderOnly": 
+    {
+		"prefix": "CutsceneRenderOnly (BF-Action)",
+		"body": [
+		  "CutsceneRenderOnly\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneRewardCardShowOff": 
+    {
+		"prefix": "CutsceneRewardCardShowOff (BF-Action)",
+		"body": [
+		  "CutsceneRewardCardShowOff\t{TargetTag = \"\", CardSquadId = }"
+		],
+		"description": ""
+	},
+    
+    "CutsceneSay": 
+    {
+		"prefix": "CutsceneSay (BF-Action)",
+		"body": [
+		  "CutsceneSay\t{Tag = \"default\", TextTag = \"\", Text = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "CutsceneSquadGoto": 
+    {
+		"prefix": "CutsceneSquadGoto (BF-Action)",
+		"body": [
+		  "CutsceneSquadGoto\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default}"
+		],
+		"description": ""
+	},
+    
+    "DebugErrorMessage": 
+    {
+		"prefix": "DebugErrorMessage (BF-Action)",
+		"body": [
+		  "DebugErrorMessage\t{Message = \"\", Popup = default}"
+		],
+		"description": ""
+	},
+    
+    "DebugInfoMessage": 
+    {
+		"prefix": "DebugInfoMessage (BF-Action)",
+		"body": [
+		  "DebugInfoMessage\t{Message = \"\", Popup = default}"
+		],
+		"description": ""
+	},
+    
+    "DebugWarningMessage": 
+    {
+		"prefix": "DebugWarningMessage (BF-Action)",
+		"body": [
+		  "DebugWarningMessage\t{Message = \"\", Popup = default}"
+		],
+		"description": ""
+	},
+    
+    "EffectDisable": 
+    {
+		"prefix": "EffectDisable (BF-Action)",
+		"body": [
+		  "EffectDisable\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EffectEnable": 
+    {
+		"prefix": "EffectEnable (BF-Action)",
+		"body": [
+		  "EffectEnable\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EffectPowerAdd": 
+    {
+		"prefix": "EffectPowerAdd (BF-Action)",
+		"body": [
+		  "EffectPowerAdd\t{Tag = \"default\", Percent = default}"
+		],
+		"description": ""
+	},
+    
+    "EffectPowerSet": 
+    {
+		"prefix": "EffectPowerSet (BF-Action)",
+		"body": [
+		  "EffectPowerSet\t{Tag = \"default\", Percent = default}"
+		],
+		"description": ""
+	},
+    
+    "EffectPowerSubtract": 
+    {
+		"prefix": "EffectPowerSubtract (BF-Action)",
+		"body": [
+		  "EffectPowerSubtract\t{Tag = \"default\", Percent = default}"
+		],
+		"description": ""
+	},
+    
+    "EffectStart": 
+    {
+		"prefix": "EffectStart (BF-Action)",
+		"body": [
+		  "EffectStart\t{Tag = \"default\", Effect = \"\", Percent = default}"
+		],
+		"description": ""
+	},
+    
+    "EffectStartTargeted": 
+    {
+		"prefix": "EffectStartTargeted (BF-Action)",
+		"body": [
+		  "EffectStartTargeted\t{Tag = \"default\", TargetTag = \"\", Effect = \"\", Percent = default}"
+		],
+		"description": ""
+	},
+    
+    "EffectStopAll": 
+    {
+		"prefix": "EffectStopAll (BF-Action)",
+		"body": [
+		  "EffectStopAll\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EffectToggle": 
+    {
+		"prefix": "EffectToggle (BF-Action)",
+		"body": [
+		  "EffectToggle\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EffectVanish": 
+    {
+		"prefix": "EffectVanish (BF-Action)",
+		"body": [
+		  "EffectVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityAbilityAdd": 
+    {
+		"prefix": "EntityAbilityAdd (BF-Action)",
+		"body": [
+		  "EntityAbilityAdd\t{Tag = \"default\", AbilityId = , ApplyToFigures = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityAbilityRemove": 
+    {
+		"prefix": "EntityAbilityRemove (BF-Action)",
+		"body": [
+		  "EntityAbilityRemove\t{Tag = \"default\", AbilityId = , ApplyToFigures = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityDirectionLookAtTarget": 
+    {
+		"prefix": "EntityDirectionLookAtTarget (BF-Action)",
+		"body": [
+		  "EntityDirectionLookAtTarget\t{Tag = \"default\", TargetTag = \"\", Variation = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityDirectionSet": 
+    {
+		"prefix": "EntityDirectionSet (BF-Action)",
+		"body": [
+		  "EntityDirectionSet\t{Tag = \"default\", Direction = default, Variation = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityDirectionSetRelative": 
+    {
+		"prefix": "EntityDirectionSetRelative (BF-Action)",
+		"body": [
+		  "EntityDirectionSetRelative\t{Tag = \"default\", Direction = default, Variation = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityFlagSetFalse": 
+    {
+		"prefix": "EntityFlagSetFalse (BF-Action)",
+		"body": [
+		  "EntityFlagSetFalse\t{Name = \"ef_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityFlagSetTrue": 
+    {
+		"prefix": "EntityFlagSetTrue (BF-Action)",
+		"body": [
+		  "EntityFlagSetTrue\t{Name = \"ef_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityFlagToggle": 
+    {
+		"prefix": "EntityFlagToggle (BF-Action)",
+		"body": [
+		  "EntityFlagToggle\t{Name = \"ef_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthAdd": 
+    {
+		"prefix": "EntityHealthAdd (BF-Action)",
+		"body": [
+		  "EntityHealthAdd\t{Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthSet": 
+    {
+		"prefix": "EntityHealthSet (BF-Action)",
+		"body": [
+		  "EntityHealthSet\t{Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthSubtract": 
+    {
+		"prefix": "EntityHealthSubtract (BF-Action)",
+		"body": [
+		  "EntityHealthSubtract\t{Tag = \"default\", Percent = , DoDamage = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityKill": 
+    {
+		"prefix": "EntityKill (BF-Action)",
+		"body": [
+		  "EntityKill\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityKillInRange": 
+    {
+		"prefix": "EntityKillInRange (BF-Action)",
+		"body": [
+		  "EntityKillInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityPlayerSet": 
+    {
+		"prefix": "EntityPlayerSet (BF-Action)",
+		"body": [
+		  "EntityPlayerSet\t{Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityPvETypeKillInRange": 
+    {
+		"prefix": "EntityPvETypeKillInRange (BF-Action)",
+		"body": [
+		  "EntityPvETypeKillInRange\t{TargetTag = \"\", Range = default, PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellAdd": 
+    {
+		"prefix": "EntitySpellAdd (BF-Action)",
+		"body": [
+		  "EntitySpellAdd\t{Tag = \"default\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCast": 
+    {
+		"prefix": "EntitySpellCast (BF-Action)",
+		"body": [
+		  "EntitySpellCast\t{Tag = \"default\", TargetTag = \"\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestBuilding": 
+    {
+		"prefix": "EntitySpellCastOnClosestBuilding (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestBuilding\t{Tag = \"default\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestGenerator": 
+    {
+		"prefix": "EntitySpellCastOnClosestGenerator (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestGenerator\t{Tag = \"default\", SpellId = , IgnoreEmpty = default}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestPlayerBuilding": 
+    {
+		"prefix": "EntitySpellCastOnClosestPlayerBuilding (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestPlayerBuilding\t{Tag = \"default\", SpellId = , Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestPlayerGenerator": 
+    {
+		"prefix": "EntitySpellCastOnClosestPlayerGenerator (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestPlayerGenerator\t{Tag = \"default\", SpellId = , IgnoreEmpty = default, Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestPlayerSquad": 
+    {
+		"prefix": "EntitySpellCastOnClosestPlayerSquad (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestPlayerSquad\t{Tag = \"default\", SpellId = , Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestPlayerTarget": 
+    {
+		"prefix": "EntitySpellCastOnClosestPlayerTarget (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestPlayerTarget\t{Tag = \"default\", SpellId = , Player = \"pl_\", IgnoreUnattackable = default}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestSquad": 
+    {
+		"prefix": "EntitySpellCastOnClosestSquad (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestSquad\t{Tag = \"default\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestTarget": 
+    {
+		"prefix": "EntitySpellCastOnClosestTarget (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestTarget\t{Tag = \"default\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestTeamBuilding": 
+    {
+		"prefix": "EntitySpellCastOnClosestTeamBuilding (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestTeamBuilding\t{Tag = \"default\", SpellId = , Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestTeamGenerator": 
+    {
+		"prefix": "EntitySpellCastOnClosestTeamGenerator (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestTeamGenerator\t{Tag = \"default\", SpellId = , IgnoreEmpty = default, Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestTeamSquad": 
+    {
+		"prefix": "EntitySpellCastOnClosestTeamSquad (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestTeamSquad\t{Tag = \"default\", SpellId = , Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastOnClosestTeamTarget": 
+    {
+		"prefix": "EntitySpellCastOnClosestTeamTarget (BF-Action)",
+		"body": [
+		  "EntitySpellCastOnClosestTeamTarget\t{Tag = \"default\", SpellId = , Team = \"tm_\", IgnoreUnattackable = default}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellRemove": 
+    {
+		"prefix": "EntitySpellRemove (BF-Action)",
+		"body": [
+		  "EntitySpellRemove\t{Tag = \"default\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntityTeamSet": 
+    {
+		"prefix": "EntityTeamSet (BF-Action)",
+		"body": [
+		  "EntityTeamSet\t{Tag = \"default\", Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityTeleport": 
+    {
+		"prefix": "EntityTeleport (BF-Action)",
+		"body": [
+		  "EntityTeleport\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityTimerStart": 
+    {
+		"prefix": "EntityTimerStart (BF-Action)",
+		"body": [
+		  "EntityTimerStart\t{Name = \"et_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityTimerStop": 
+    {
+		"prefix": "EntityTimerStop (BF-Action)",
+		"body": [
+		  "EntityTimerStop\t{Name = \"et_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueAdd": 
+    {
+		"prefix": "EntityValueAdd (BF-Action)",
+		"body": [
+		  "EntityValueAdd\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueAddVarValue": 
+    {
+		"prefix": "EntityValueAddVarValue (BF-Action)",
+		"body": [
+		  "EntityValueAddVarValue\t{Name = \"ev_\", VarName = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueDecrease": 
+    {
+		"prefix": "EntityValueDecrease (BF-Action)",
+		"body": [
+		  "EntityValueDecrease\t{Name = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueDivideByVarValue": 
+    {
+		"prefix": "EntityValueDivideByVarValue (BF-Action)",
+		"body": [
+		  "EntityValueDivideByVarValue\t{Name = \"ev_\", VarName = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIncrease": 
+    {
+		"prefix": "EntityValueIncrease (BF-Action)",
+		"body": [
+		  "EntityValueIncrease\t{Name = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueMultiplyByVarValue": 
+    {
+		"prefix": "EntityValueMultiplyByVarValue (BF-Action)",
+		"body": [
+		  "EntityValueMultiplyByVarValue\t{Name = \"ev_\", VarName = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueRandomize": 
+    {
+		"prefix": "EntityValueRandomize (BF-Action)",
+		"body": [
+		  "EntityValueRandomize\t{Name = \"ev_\", MaxValue = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueSet": 
+    {
+		"prefix": "EntityValueSet (BF-Action)",
+		"body": [
+		  "EntityValueSet\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueSetToVarValue": 
+    {
+		"prefix": "EntityValueSetToVarValue (BF-Action)",
+		"body": [
+		  "EntityValueSetToVarValue\t{Name = \"ev_\", VarName = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueSubtract": 
+    {
+		"prefix": "EntityValueSubtract (BF-Action)",
+		"body": [
+		  "EntityValueSubtract\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueSubtractVarValue": 
+    {
+		"prefix": "EntityValueSubtractVarValue (BF-Action)",
+		"body": [
+		  "EntityValueSubtractVarValue\t{Name = \"ev_\", VarName = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityVanish": 
+    {
+		"prefix": "EntityVanish (BF-Action)",
+		"body": [
+		  "EntityVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "FogOfWarGlanceAt": 
+    {
+		"prefix": "FogOfWarGlanceAt (BF-Action)",
+		"body": [
+		  "FogOfWarGlanceAt\t{TargetTag = \"\", Team = \"tm_\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "FogOfWarObserve": 
+    {
+		"prefix": "FogOfWarObserve (BF-Action)",
+		"body": [
+		  "FogOfWarObserve\t{TargetTag = \"\", Team = \"tm_\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "GdsGetConfigBoolean": 
+    {
+		"prefix": "GdsGetConfigBoolean (BF-Action)",
+		"body": [
+		  "GdsGetConfigBoolean\t{}"
+		],
+		"description": ""
+	},
+    
+    "GdsGetConfigFloat": 
+    {
+		"prefix": "GdsGetConfigFloat (BF-Action)",
+		"body": [
+		  "GdsGetConfigFloat\t{}"
+		],
+		"description": ""
+	},
+    
+    "GdsGetConfigInteger": 
+    {
+		"prefix": "GdsGetConfigInteger (BF-Action)",
+		"body": [
+		  "GdsGetConfigInteger\t{}"
+		],
+		"description": ""
+	},
+    
+    "GdsGetConfigString": 
+    {
+		"prefix": "GdsGetConfigString (BF-Action)",
+		"body": [
+		  "GdsGetConfigString\t{}"
+		],
+		"description": ""
+	},
+    
+    "GeneratorVanish": 
+    {
+		"prefix": "GeneratorVanish (BF-Action)",
+		"body": [
+		  "GeneratorVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "GetCurrentWaveNumber": 
+    {
+		"prefix": "GetCurrentWaveNumber (BF-Action)",
+		"body": [
+		  "GetCurrentWaveNumber\t{}"
+		],
+		"description": ""
+	},
+    
+    "GetDifficulty": 
+    {
+		"prefix": "GetDifficulty (BF-Action)",
+		"body": [
+		  "GetDifficulty\t{}"
+		],
+		"description": ""
+	},
+    
+    "GetNumPlayers": 
+    {
+		"prefix": "GetNumPlayers (BF-Action)",
+		"body": [
+		  "GetNumPlayers\t{}"
+		],
+		"description": ""
+	},
+    
+    "GetScriptPath": 
+    {
+		"prefix": "GetScriptPath (BF-Action)",
+		"body": [
+		  "GetScriptPath\t{}"
+		],
+		"description": ""
+	},
+    
+    "GetScriptTag": 
+    {
+		"prefix": "GetScriptTag (BF-Action)",
+		"body": [
+		  "GetScriptTag\t{}"
+		],
+		"description": ""
+	},
+    
+    "GetTotalWaveNumber": 
+    {
+		"prefix": "GetTotalWaveNumber (BF-Action)",
+		"body": [
+		  "GetTotalWaveNumber\t{}"
+		],
+		"description": ""
+	},
+    
+    "MapFlagSetFalse": 
+    {
+		"prefix": "MapFlagSetFalse (BF-Action)",
+		"body": [
+		  "MapFlagSetFalse\t{Name = \"mf_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapFlagSetTrue": 
+    {
+		"prefix": "MapFlagSetTrue (BF-Action)",
+		"body": [
+		  "MapFlagSetTrue\t{Name = \"mf_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapFlagToggle": 
+    {
+		"prefix": "MapFlagToggle (BF-Action)",
+		"body": [
+		  "MapFlagToggle\t{Name = \"mf_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapReset": 
+    {
+		"prefix": "MapReset (BF-Action)",
+		"body": [
+		  "MapReset\t{}"
+		],
+		"description": ""
+	},
+    
+    "MapTimerStart": 
+    {
+		"prefix": "MapTimerStart (BF-Action)",
+		"body": [
+		  "MapTimerStart\t{Name = \"mt_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapTimerStop": 
+    {
+		"prefix": "MapTimerStop (BF-Action)",
+		"body": [
+		  "MapTimerStop\t{Name = \"mt_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueAdd": 
+    {
+		"prefix": "MapValueAdd (BF-Action)",
+		"body": [
+		  "MapValueAdd\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueAddVarValue": 
+    {
+		"prefix": "MapValueAddVarValue (BF-Action)",
+		"body": [
+		  "MapValueAddVarValue\t{Name = \"mv_\", VarName = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueDecrease": 
+    {
+		"prefix": "MapValueDecrease (BF-Action)",
+		"body": [
+		  "MapValueDecrease\t{Name = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueDivideByVarValue": 
+    {
+		"prefix": "MapValueDivideByVarValue (BF-Action)",
+		"body": [
+		  "MapValueDivideByVarValue\t{Name = \"mv_\", VarName = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueIncrease": 
+    {
+		"prefix": "MapValueIncrease (BF-Action)",
+		"body": [
+		  "MapValueIncrease\t{Name = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueMultiplyByVarValue": 
+    {
+		"prefix": "MapValueMultiplyByVarValue (BF-Action)",
+		"body": [
+		  "MapValueMultiplyByVarValue\t{Name = \"mv_\", VarName = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueRandomize": 
+    {
+		"prefix": "MapValueRandomize (BF-Action)",
+		"body": [
+		  "MapValueRandomize\t{Name = \"mv_\", MaxValue = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueSet": 
+    {
+		"prefix": "MapValueSet (BF-Action)",
+		"body": [
+		  "MapValueSet\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueSetToVarValue": 
+    {
+		"prefix": "MapValueSetToVarValue (BF-Action)",
+		"body": [
+		  "MapValueSetToVarValue\t{Name = \"mv_\", VarName = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueSubtract": 
+    {
+		"prefix": "MapValueSubtract (BF-Action)",
+		"body": [
+		  "MapValueSubtract\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueSubtractVarValue": 
+    {
+		"prefix": "MapValueSubtractVarValue (BF-Action)",
+		"body": [
+		  "MapValueSubtractVarValue\t{Name = \"mv_\", VarName = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MB": 
+    {
+		"prefix": "MB (BF-Action)",
+		"body": [
+		  "MB\t{}"
+		],
+		"description": ""
+	},
+    
+    "MessageBox": 
+    {
+		"prefix": "MessageBox (BF-Action)",
+		"body": [
+		  "MessageBox\t{}"
+		],
+		"description": ""
+	},
+    
+    "MiniMapAlert": 
+    {
+		"prefix": "MiniMapAlert (BF-Action)",
+		"body": [
+		  "MiniMapAlert\t{TargetTag = \"\", AlertType = }"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterDecrease": 
+    {
+		"prefix": "MissionCounterDecrease (BF-Action)",
+		"body": [
+		  "MissionCounterDecrease\t{Player = \"ALL\", CounterTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterHide": 
+    {
+		"prefix": "MissionCounterHide (BF-Action)",
+		"body": [
+		  "MissionCounterHide\t{Player = \"ALL\", CounterTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterIncrease": 
+    {
+		"prefix": "MissionCounterIncrease (BF-Action)",
+		"body": [
+		  "MissionCounterIncrease\t{Player = \"ALL\", CounterTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterSet": 
+    {
+		"prefix": "MissionCounterSet (BF-Action)",
+		"body": [
+		  "MissionCounterSet\t{Player = \"ALL\", CounterTag = \"\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterSetToHealthPercent": 
+    {
+		"prefix": "MissionCounterSetToHealthPercent (BF-Action)",
+		"body": [
+		  "MissionCounterSetToHealthPercent\t{Player = \"ALL\", Tag = \"default\", CounterTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterShow": 
+    {
+		"prefix": "MissionCounterShow (BF-Action)",
+		"body": [
+		  "MissionCounterShow\t{Player = \"ALL\", CounterTag = \"\", LocaTag = \"\", MaxValue = }"
+		],
+		"description": ""
+	},
+    
+    "MissionEventFailure": 
+    {
+		"prefix": "MissionEventFailure (BF-Action)",
+		"body": [
+		  "MissionEventFailure\t{Player = \"ALL\", TargetTag = \"\", Summary = \"\", Description = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionEventInfo": 
+    {
+		"prefix": "MissionEventInfo (BF-Action)",
+		"body": [
+		  "MissionEventInfo\t{Player = \"ALL\", TargetTag = \"\", Summary = \"\", Description = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionEventSuccess": 
+    {
+		"prefix": "MissionEventSuccess (BF-Action)",
+		"body": [
+		  "MissionEventSuccess\t{Player = \"ALL\", TargetTag = \"\", Summary = \"\", Description = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionEventWarning": 
+    {
+		"prefix": "MissionEventWarning (BF-Action)",
+		"body": [
+		  "MissionEventWarning\t{Player = \"ALL\", TargetTag = \"\", Summary = \"\", Description = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionOutcry": 
+    {
+		"prefix": "MissionOutcry (BF-Action)",
+		"body": [
+		  "MissionOutcry\t{Player = \"ALL\", Tag = \"default\", TextTag = \"\", Text = \"\", DurationSeconds = default, PortraitFileName = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTaskOnlyTransferXP": 
+    {
+		"prefix": "MissionTaskOnlyTransferXP (BF-Action)",
+		"body": [
+		  "MissionTaskOnlyTransferXP\t{TaskTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTaskRemove": 
+    {
+		"prefix": "MissionTaskRemove (BF-Action)",
+		"body": [
+		  "MissionTaskRemove\t{Player = \"ALL\", TaskTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTaskSetActive": 
+    {
+		"prefix": "MissionTaskSetActive (BF-Action)",
+		"body": [
+		  "MissionTaskSetActive\t{Player = \"ALL\", TaskTag = \"\", TargetTag = \"\", Summary = \"\", Description = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTaskSetFailed": 
+    {
+		"prefix": "MissionTaskSetFailed (BF-Action)",
+		"body": [
+		  "MissionTaskSetFailed\t{Player = \"ALL\", TaskTag = \"\", TargetTag = \"\", Summary = \"\", Description = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTaskSetSolved": 
+    {
+		"prefix": "MissionTaskSetSolved (BF-Action)",
+		"body": [
+		  "MissionTaskSetSolved\t{Player = \"ALL\", TaskTag = \"\", TargetTag = \"\", Summary = \"\", Description = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerChange": 
+    {
+		"prefix": "MissionTimerChange (BF-Action)",
+		"body": [
+		  "MissionTimerChange\t{Player = \"ALL\", TimerTag = \"\", TimerTagOld = \"\", LocaTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerPause": 
+    {
+		"prefix": "MissionTimerPause (BF-Action)",
+		"body": [
+		  "MissionTimerPause\t{Player = \"ALL\", TimerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerResume": 
+    {
+		"prefix": "MissionTimerResume (BF-Action)",
+		"body": [
+		  "MissionTimerResume\t{Player = \"ALL\", TimerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerStart": 
+    {
+		"prefix": "MissionTimerStart (BF-Action)",
+		"body": [
+		  "MissionTimerStart\t{Player = \"ALL\", TimerTag = \"\", LocaTag = \"\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerStop": 
+    {
+		"prefix": "MissionTimerStop (BF-Action)",
+		"body": [
+		  "MissionTimerStop\t{Player = \"ALL\", TimerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MonumentVanish": 
+    {
+		"prefix": "MonumentVanish (BF-Action)",
+		"body": [
+		  "MonumentVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkFlagSetFalse": 
+    {
+		"prefix": "NetworkFlagSetFalse (BF-Action)",
+		"body": [
+		  "NetworkFlagSetFalse\t{Name = \"nf_\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkFlagSetTrue": 
+    {
+		"prefix": "NetworkFlagSetTrue (BF-Action)",
+		"body": [
+		  "NetworkFlagSetTrue\t{Name = \"nf_\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkFlagToggle": 
+    {
+		"prefix": "NetworkFlagToggle (BF-Action)",
+		"body": [
+		  "NetworkFlagToggle\t{Name = \"nf_\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueAdd": 
+    {
+		"prefix": "NetworkValueAdd (BF-Action)",
+		"body": [
+		  "NetworkValueAdd\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueDecrease": 
+    {
+		"prefix": "NetworkValueDecrease (BF-Action)",
+		"body": [
+		  "NetworkValueDecrease\t{Name = \"nv_\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueIncrease": 
+    {
+		"prefix": "NetworkValueIncrease (BF-Action)",
+		"body": [
+		  "NetworkValueIncrease\t{Name = \"nv_\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueSet": 
+    {
+		"prefix": "NetworkValueSet (BF-Action)",
+		"body": [
+		  "NetworkValueSet\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueSubtract": 
+    {
+		"prefix": "NetworkValueSubtract (BF-Action)",
+		"body": [
+		  "NetworkValueSubtract\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "ObjectAnimPlay": 
+    {
+		"prefix": "ObjectAnimPlay (BF-Action)",
+		"body": [
+		  "ObjectAnimPlay\t{Tag = \"default\", Anim = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "ObjectAnimPlayLooped": 
+    {
+		"prefix": "ObjectAnimPlayLooped (BF-Action)",
+		"body": [
+		  "ObjectAnimPlayLooped\t{Tag = \"default\", Anim = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "ObjectDestroy": 
+    {
+		"prefix": "ObjectDestroy (BF-Action)",
+		"body": [
+		  "ObjectDestroy\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "ObjectRespawn": 
+    {
+		"prefix": "ObjectRespawn (BF-Action)",
+		"body": [
+		  "ObjectRespawn\t{Tag = \"default\", TargetTag = \"default\", HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "ObjectSpawn": 
+    {
+		"prefix": "ObjectSpawn (BF-Action)",
+		"body": [
+		  "ObjectSpawn\t{TargetTag = \"\", ObjectId = , Direction = default, Height = default, Scaling = default}"
+		],
+		"description": ""
+	},
+    
+    "ObjectSpawnWithTag": 
+    {
+		"prefix": "ObjectSpawnWithTag (BF-Action)",
+		"body": [
+		  "ObjectSpawnWithTag\t{Tag = \"default\", TargetTag = \"\", ObjectId = , Direction = default, Height = default, Scaling = default}"
+		],
+		"description": ""
+	},
+    
+    "ObjectTypeChange": 
+    {
+		"prefix": "ObjectTypeChange (BF-Action)",
+		"body": [
+		  "ObjectTypeChange\t{Tag = \"default\", ObjectId = }"
+		],
+		"description": ""
+	},
+    
+    "ObjectVanish": 
+    {
+		"prefix": "ObjectVanish (BF-Action)",
+		"body": [
+		  "ObjectVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "OctoberVersionOnly_DoDamageToTeamSquadInRange": 
+    {
+		"prefix": "OctoberVersionOnly_DoDamageToTeamSquadInRange (BF-Action)",
+		"body": [
+		  "OctoberVersionOnly_DoDamageToTeamSquadInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default, Amount = }"
+		],
+		"description": ""
+	},
+    
+    "OctoberVersionOnly_DoDamageToTeamSquadInRay": 
+    {
+		"prefix": "OctoberVersionOnly_DoDamageToTeamSquadInRay (BF-Action)",
+		"body": [
+		  "OctoberVersionOnly_DoDamageToTeamSquadInRay\t{Team = \"tm_\", Tag = \"default\", TargetTag = \"\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "OctoberVersionOnly_DoDamageToTeamSquadInRect": 
+    {
+		"prefix": "OctoberVersionOnly_DoDamageToTeamSquadInRect (BF-Action)",
+		"body": [
+		  "OctoberVersionOnly_DoDamageToTeamSquadInRect\t{Team = \"tm_\", Tag = \"default\", TargetTag = \"\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingKillableKillInRange": 
+    {
+		"prefix": "PlayerBuildingKillableKillInRange (BF-Action)",
+		"body": [
+		  "PlayerBuildingKillableKillInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingKillInRange": 
+    {
+		"prefix": "PlayerBuildingKillInRange (BF-Action)",
+		"body": [
+		  "PlayerBuildingKillInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingSpawn": 
+    {
+		"prefix": "PlayerBuildingSpawn (BF-Action)",
+		"body": [
+		  "PlayerBuildingSpawn\t{TargetTag = \"\", Player = \"pl_\", BuildingId = , Direction = default, HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingSpawnWithTag": 
+    {
+		"prefix": "PlayerBuildingSpawnWithTag (BF-Action)",
+		"body": [
+		  "PlayerBuildingSpawnWithTag\t{Tag = \"default\", TargetTag = \"\", Player = \"pl_\", BuildingId = , Direction = default, HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerCardSpellFakePlay": 
+    {
+		"prefix": "PlayerCardSpellFakePlay (BF-Action)",
+		"body": [
+		  "PlayerCardSpellFakePlay\t{TargetTag = \"\", AimTag = \"default\", Player = \"pl_\", CardSpellId = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerCardSquadFakePlay": 
+    {
+		"prefix": "PlayerCardSquadFakePlay (BF-Action)",
+		"body": [
+		  "PlayerCardSquadFakePlay\t{TargetTag = \"\", Player = \"pl_\", CardSquadId = , Direction = default, DoSpell = default, DoCheer = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerCardSquadFakePlayWithTag": 
+    {
+		"prefix": "PlayerCardSquadFakePlayWithTag (BF-Action)",
+		"body": [
+		  "PlayerCardSquadFakePlayWithTag\t{Tag = \"default\", TargetTag = \"\", Player = \"pl_\", CardSquadId = , Direction = default, DoSpell = default, DoCheer = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerEntityPvETypeKillInRange": 
+    {
+		"prefix": "PlayerEntityPvETypeKillInRange (BF-Action)",
+		"body": [
+		  "PlayerEntityPvETypeKillInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default, PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerFlagSetFalse": 
+    {
+		"prefix": "PlayerFlagSetFalse (BF-Action)",
+		"body": [
+		  "PlayerFlagSetFalse\t{Player = \"ALL\", Name = \"pf_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerFlagSetTrue": 
+    {
+		"prefix": "PlayerFlagSetTrue (BF-Action)",
+		"body": [
+		  "PlayerFlagSetTrue\t{Player = \"ALL\", Name = \"pf_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerFlagToggle": 
+    {
+		"prefix": "PlayerFlagToggle (BF-Action)",
+		"body": [
+		  "PlayerFlagToggle\t{Player = \"ALL\", Name = \"pf_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGameOver": 
+    {
+		"prefix": "PlayerGameOver (BF-Action)",
+		"body": [
+		  "PlayerGameOver\t{Player = \"ALL\", TargetTag = \"\", Message = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGameOverCheckDisabled": 
+    {
+		"prefix": "PlayerGameOverCheckDisabled (BF-Action)",
+		"body": [
+		  "PlayerGameOverCheckDisabled\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGameOverCheckEnabled": 
+    {
+		"prefix": "PlayerGameOverCheckEnabled (BF-Action)",
+		"body": [
+		  "PlayerGameOverCheckEnabled\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGameWon": 
+    {
+		"prefix": "PlayerGameWon (BF-Action)",
+		"body": [
+		  "PlayerGameWon\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorActivate": 
+    {
+		"prefix": "PlayerGeneratorActivate (BF-Action)",
+		"body": [
+		  "PlayerGeneratorActivate\t{Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorDeactivate": 
+    {
+		"prefix": "PlayerGeneratorDeactivate (BF-Action)",
+		"body": [
+		  "PlayerGeneratorDeactivate\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentActivate": 
+    {
+		"prefix": "PlayerMonumentActivate (BF-Action)",
+		"body": [
+		  "PlayerMonumentActivate\t{Tag = \"default\", Player = \"pl_\", Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentDeactivate": 
+    {
+		"prefix": "PlayerMonumentDeactivate (BF-Action)",
+		"body": [
+		  "PlayerMonumentDeactivate\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerPowerGive": 
+    {
+		"prefix": "PlayerPowerGive (BF-Action)",
+		"body": [
+		  "PlayerPowerGive\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerPowerTake": 
+    {
+		"prefix": "PlayerPowerTake (BF-Action)",
+		"body": [
+		  "PlayerPowerTake\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadCheer": 
+    {
+		"prefix": "PlayerSquadCheer (BF-Action)",
+		"body": [
+		  "PlayerSquadCheer\t{Player = \"ALL\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadInRangePushBack": 
+    {
+		"prefix": "PlayerSquadInRangePushBack (BF-Action)",
+		"body": [
+		  "PlayerSquadInRangePushBack\t{TargetTag = \"\", Range = default, Speed = , MaxRadiusType = , Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadSpawn": 
+    {
+		"prefix": "PlayerSquadSpawn (BF-Action)",
+		"body": [
+		  "PlayerSquadSpawn\t{TargetTag = \"\", Player = \"pl_\", SquadId = , Direction = default, HealthPercent = default, Amount = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadSpawnIntoGroup": 
+    {
+		"prefix": "PlayerSquadSpawnIntoGroup (BF-Action)",
+		"body": [
+		  "PlayerSquadSpawnIntoGroup\t{Tag = \"default\", Group = \"\", TargetTag = \"\", Player = \"pl_\", SquadId = , Direction = default, HealthPercent = default, Amount = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadSpawnRandomSelection": 
+    {
+		"prefix": "PlayerSquadSpawnRandomSelection (BF-Action)",
+		"body": [
+		  "PlayerSquadSpawnRandomSelection\t{Tag = \"default\", SpawnTable = , TargetTag = \"\", Player = \"pl_\", Direction = default, HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadSpawnWithTag": 
+    {
+		"prefix": "PlayerSquadSpawnWithTag (BF-Action)",
+		"body": [
+		  "PlayerSquadSpawnWithTag\t{Tag = \"default\", TargetTag = \"\", Player = \"pl_\", SquadId = , Direction = default, HealthPercent = default, Amount = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadTeleportInRange": 
+    {
+		"prefix": "PlayerSquadTeleportInRange (BF-Action)",
+		"body": [
+		  "PlayerSquadTeleportInRange\t{Tag = \"default\", Range = default, TargetTag = \"\", Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerTimerStart": 
+    {
+		"prefix": "PlayerTimerStart (BF-Action)",
+		"body": [
+		  "PlayerTimerStart\t{Player = \"ALL\", Name = \"pt_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerTimerStop": 
+    {
+		"prefix": "PlayerTimerStop (BF-Action)",
+		"body": [
+		  "PlayerTimerStop\t{Player = \"ALL\", Name = \"pt_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueAdd": 
+    {
+		"prefix": "PlayerValueAdd (BF-Action)",
+		"body": [
+		  "PlayerValueAdd\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueDecrease": 
+    {
+		"prefix": "PlayerValueDecrease (BF-Action)",
+		"body": [
+		  "PlayerValueDecrease\t{Player = \"ALL\", Name = \"pv_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueIncrease": 
+    {
+		"prefix": "PlayerValueIncrease (BF-Action)",
+		"body": [
+		  "PlayerValueIncrease\t{Player = \"ALL\", Name = \"pv_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueRandomize": 
+    {
+		"prefix": "PlayerValueRandomize (BF-Action)",
+		"body": [
+		  "PlayerValueRandomize\t{Player = \"ALL\", Name = \"pv_\", MaxValue = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueSet": 
+    {
+		"prefix": "PlayerValueSet (BF-Action)",
+		"body": [
+		  "PlayerValueSet\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueSubtract": 
+    {
+		"prefix": "PlayerValueSubtract (BF-Action)",
+		"body": [
+		  "PlayerValueSubtract\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "RegisterSquadDeathCounter": 
+    {
+		"prefix": "RegisterSquadDeathCounter (BF-Action)",
+		"body": [
+		  "RegisterSquadDeathCounter\t{Group = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "RegisterSquadSpawnCounter": 
+    {
+		"prefix": "RegisterSquadSpawnCounter (BF-Action)",
+		"body": [
+		  "RegisterSquadSpawnCounter\t{Group = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SetDifficulty": 
+    {
+		"prefix": "SetDifficulty (BF-Action)",
+		"body": [
+		  "SetDifficulty\t{}"
+		],
+		"description": ""
+	},
+    
+    "SquadAmountPatrol": 
+    {
+		"prefix": "SquadAmountPatrol (BF-Action)",
+		"body": [
+		  "SquadAmountPatrol\t{Tag = \"default\", TargetTag = \"\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "SquadAnimPlay": 
+    {
+		"prefix": "SquadAnimPlay (BF-Action)",
+		"body": [
+		  "SquadAnimPlay\t{Tag = \"default\", Unit = \"\", Anim = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadAnimPlayLooped": 
+    {
+		"prefix": "SquadAnimPlayLooped (BF-Action)",
+		"body": [
+		  "SquadAnimPlayLooped\t{Tag = \"default\", Unit = \"\", Anim = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadAttack": 
+    {
+		"prefix": "SquadAttack (BF-Action)",
+		"body": [
+		  "SquadAttack\t{Tag = \"default\", TargetTag = \"\", AttackGroupSize = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadAttackForced": 
+    {
+		"prefix": "SquadAttackForced (BF-Action)",
+		"body": [
+		  "SquadAttackForced\t{Tag = \"default\", TargetTag = \"\", AttackGroupSize = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadBarrierDismount": 
+    {
+		"prefix": "SquadBarrierDismount (BF-Action)",
+		"body": [
+		  "SquadBarrierDismount\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadBarrierMount": 
+    {
+		"prefix": "SquadBarrierMount (BF-Action)",
+		"body": [
+		  "SquadBarrierMount\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadCheckpointGoto": 
+    {
+		"prefix": "SquadCheckpointGoto (BF-Action)",
+		"body": [
+		  "SquadCheckpointGoto\t{Tag = \"default\", TargetTag = \"\", Run = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadFlee": 
+    {
+		"prefix": "SquadFlee (BF-Action)",
+		"body": [
+		  "SquadFlee\t{Tag = \"default\", Distance = , SearchRadius = }"
+		],
+		"description": ""
+	},
+    
+    "SquadGoto": 
+    {
+		"prefix": "SquadGoto (BF-Action)",
+		"body": [
+		  "SquadGoto\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestBarrier": 
+    {
+		"prefix": "SquadGotoClosestBarrier (BF-Action)",
+		"body": [
+		  "SquadGotoClosestBarrier\t{Tag = \"default\", Run = default, SearchRadius = }"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestBuilding": 
+    {
+		"prefix": "SquadGotoClosestBuilding (BF-Action)",
+		"body": [
+		  "SquadGotoClosestBuilding\t{Tag = \"default\", Run = default, SearchRadius = }"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestMonumentOrGenerator": 
+    {
+		"prefix": "SquadGotoClosestMonumentOrGenerator (BF-Action)",
+		"body": [
+		  "SquadGotoClosestMonumentOrGenerator\t{Tag = \"default\", Run = default, SearchRadius = }"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestPlayerBarrier": 
+    {
+		"prefix": "SquadGotoClosestPlayerBarrier (BF-Action)",
+		"body": [
+		  "SquadGotoClosestPlayerBarrier\t{Tag = \"default\", Run = default, SearchRadius = , Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestPlayerBuilding": 
+    {
+		"prefix": "SquadGotoClosestPlayerBuilding (BF-Action)",
+		"body": [
+		  "SquadGotoClosestPlayerBuilding\t{Tag = \"default\", Run = default, SearchRadius = , Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestPlayerMonumentOrGenerator": 
+    {
+		"prefix": "SquadGotoClosestPlayerMonumentOrGenerator (BF-Action)",
+		"body": [
+		  "SquadGotoClosestPlayerMonumentOrGenerator\t{Tag = \"default\", Run = default, SearchRadius = , Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestPlayerSquad": 
+    {
+		"prefix": "SquadGotoClosestPlayerSquad (BF-Action)",
+		"body": [
+		  "SquadGotoClosestPlayerSquad\t{Tag = \"default\", Run = default, SearchRadius = , Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestPlayerTarget": 
+    {
+		"prefix": "SquadGotoClosestPlayerTarget (BF-Action)",
+		"body": [
+		  "SquadGotoClosestPlayerTarget\t{Tag = \"default\", Run = default, SearchRadius = , Player = \"pl_\", IgnoreUnattackable = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestSquad": 
+    {
+		"prefix": "SquadGotoClosestSquad (BF-Action)",
+		"body": [
+		  "SquadGotoClosestSquad\t{Tag = \"default\", Run = default, SearchRadius = }"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestTarget": 
+    {
+		"prefix": "SquadGotoClosestTarget (BF-Action)",
+		"body": [
+		  "SquadGotoClosestTarget\t{Tag = \"default\", Run = default, SearchRadius = }"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestTeamBarrier": 
+    {
+		"prefix": "SquadGotoClosestTeamBarrier (BF-Action)",
+		"body": [
+		  "SquadGotoClosestTeamBarrier\t{Tag = \"default\", Run = default, SearchRadius = , Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestTeamBuilding": 
+    {
+		"prefix": "SquadGotoClosestTeamBuilding (BF-Action)",
+		"body": [
+		  "SquadGotoClosestTeamBuilding\t{Tag = \"default\", Run = default, SearchRadius = , Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestTeamMonumentOrGenerator": 
+    {
+		"prefix": "SquadGotoClosestTeamMonumentOrGenerator (BF-Action)",
+		"body": [
+		  "SquadGotoClosestTeamMonumentOrGenerator\t{Tag = \"default\", Run = default, SearchRadius = , Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestTeamSquad": 
+    {
+		"prefix": "SquadGotoClosestTeamSquad (BF-Action)",
+		"body": [
+		  "SquadGotoClosestTeamSquad\t{Tag = \"default\", Run = default, SearchRadius = , Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoClosestTeamTarget": 
+    {
+		"prefix": "SquadGotoClosestTeamTarget (BF-Action)",
+		"body": [
+		  "SquadGotoClosestTeamTarget\t{Tag = \"default\", Run = default, SearchRadius = , Team = \"tm_\", IgnoreUnattackable = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoFight": 
+    {
+		"prefix": "SquadGotoFight (BF-Action)",
+		"body": [
+		  "SquadGotoFight\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoForced": 
+    {
+		"prefix": "SquadGotoForced (BF-Action)",
+		"body": [
+		  "SquadGotoForced\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoMapBorder": 
+    {
+		"prefix": "SquadGotoMapBorder (BF-Action)",
+		"body": [
+		  "SquadGotoMapBorder\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadGotoRandom": 
+    {
+		"prefix": "SquadGotoRandom (BF-Action)",
+		"body": [
+		  "SquadGotoRandom\t{Tag = \"default\", TargetTag = \"\", Run = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGridGoto": 
+    {
+		"prefix": "SquadGridGoto (BF-Action)",
+		"body": [
+		  "SquadGridGoto\t{Tag = \"default\", TargetTag = \"\", Direction = default, IgnoreGridIfAllSquadsFly = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGridPatrol": 
+    {
+		"prefix": "SquadGridPatrol (BF-Action)",
+		"body": [
+		  "SquadGridPatrol\t{Tag = \"default\", TargetTag = \"\", Direction = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGroupCheckpointGoto": 
+    {
+		"prefix": "SquadGroupCheckpointGoto (BF-Action)",
+		"body": [
+		  "SquadGroupCheckpointGoto\t{Group = \"\", TargetTag = \"\", Run = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadGroupCheckpointGotoStop": 
+    {
+		"prefix": "SquadGroupCheckpointGotoStop (BF-Action)",
+		"body": [
+		  "SquadGroupCheckpointGotoStop\t{Group = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadHoldPosition": 
+    {
+		"prefix": "SquadHoldPosition (BF-Action)",
+		"body": [
+		  "SquadHoldPosition\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdBarrierMount": 
+    {
+		"prefix": "SquadIdBarrierMount (BF-Action)",
+		"body": [
+		  "SquadIdBarrierMount\t{Tag = \"default\", TargetTag = \"\", SquadId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadIdIdleBarrierMount": 
+    {
+		"prefix": "SquadIdIdleBarrierMount (BF-Action)",
+		"body": [
+		  "SquadIdIdleBarrierMount\t{Tag = \"default\", TargetTag = \"\", SquadId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleAmountPatrol": 
+    {
+		"prefix": "SquadIdleAmountPatrol (BF-Action)",
+		"body": [
+		  "SquadIdleAmountPatrol\t{Tag = \"default\", TargetTag = \"\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleBarrierMount": 
+    {
+		"prefix": "SquadIdleBarrierMount (BF-Action)",
+		"body": [
+		  "SquadIdleBarrierMount\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleGoto": 
+    {
+		"prefix": "SquadIdleGoto (BF-Action)",
+		"body": [
+		  "SquadIdleGoto\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleGotoFight": 
+    {
+		"prefix": "SquadIdleGotoFight (BF-Action)",
+		"body": [
+		  "SquadIdleGotoFight\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleGotoRandom": 
+    {
+		"prefix": "SquadIdleGotoRandom (BF-Action)",
+		"body": [
+		  "SquadIdleGotoRandom\t{Tag = \"default\", TargetTag = \"\", Run = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleRandomGoto": 
+    {
+		"prefix": "SquadIdleRandomGoto (BF-Action)",
+		"body": [
+		  "SquadIdleRandomGoto\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default, Percent = }"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleRandomGotoRandom": 
+    {
+		"prefix": "SquadIdleRandomGotoRandom (BF-Action)",
+		"body": [
+		  "SquadIdleRandomGotoRandom\t{Tag = \"default\", TargetTag = \"\", Run = default, Percent = }"
+		],
+		"description": ""
+	},
+    
+    "SquadInRangePushBack": 
+    {
+		"prefix": "SquadInRangePushBack (BF-Action)",
+		"body": [
+		  "SquadInRangePushBack\t{TargetTag = \"\", Range = default, Speed = , MaxRadiusType = }"
+		],
+		"description": ""
+	},
+    
+    "SquadKill": 
+    {
+		"prefix": "SquadKill (BF-Action)",
+		"body": [
+		  "SquadKill\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadKillInRange": 
+    {
+		"prefix": "SquadKillInRange (BF-Action)",
+		"body": [
+		  "SquadKillInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadModeChange": 
+    {
+		"prefix": "SquadModeChange (BF-Action)",
+		"body": [
+		  "SquadModeChange\t{Tag = \"default\", ModeId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadModeSetDisabled": 
+    {
+		"prefix": "SquadModeSetDisabled (BF-Action)",
+		"body": [
+		  "SquadModeSetDisabled\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadModeSetEnabled": 
+    {
+		"prefix": "SquadModeSetEnabled (BF-Action)",
+		"body": [
+		  "SquadModeSetEnabled\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadModeToggle": 
+    {
+		"prefix": "SquadModeToggle (BF-Action)",
+		"body": [
+		  "SquadModeToggle\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadPatrol": 
+    {
+		"prefix": "SquadPatrol (BF-Action)",
+		"body": [
+		  "SquadPatrol\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadRandomGoto": 
+    {
+		"prefix": "SquadRandomGoto (BF-Action)",
+		"body": [
+		  "SquadRandomGoto\t{Tag = \"default\", TargetTag = \"\", Run = default, Direction = default, Percent = }"
+		],
+		"description": ""
+	},
+    
+    "SquadRandomGotoRandom": 
+    {
+		"prefix": "SquadRandomGotoRandom (BF-Action)",
+		"body": [
+		  "SquadRandomGotoRandom\t{Tag = \"default\", TargetTag = \"\", Run = default, Percent = }"
+		],
+		"description": ""
+	},
+    
+    "SquadRangedBarrierMount": 
+    {
+		"prefix": "SquadRangedBarrierMount (BF-Action)",
+		"body": [
+		  "SquadRangedBarrierMount\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadRangedIdleBarrierMount": 
+    {
+		"prefix": "SquadRangedIdleBarrierMount (BF-Action)",
+		"body": [
+		  "SquadRangedIdleBarrierMount\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadRespawn": 
+    {
+		"prefix": "SquadRespawn (BF-Action)",
+		"body": [
+		  "SquadRespawn\t{Tag = \"default\", TargetTag = \"default\", HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadSpawn": 
+    {
+		"prefix": "SquadSpawn (BF-Action)",
+		"body": [
+		  "SquadSpawn\t{TargetTag = \"\", Team = \"tm_\", SquadId = , Direction = default, HealthPercent = default, Amount = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadSpawnIntoGroup": 
+    {
+		"prefix": "SquadSpawnIntoGroup (BF-Action)",
+		"body": [
+		  "SquadSpawnIntoGroup\t{Tag = \"default\", Group = \"\", TargetTag = \"\", Team = \"tm_\", SquadId = , Direction = default, HealthPercent = default, Amount = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadSpawnRandomSelection": 
+    {
+		"prefix": "SquadSpawnRandomSelection (BF-Action)",
+		"body": [
+		  "SquadSpawnRandomSelection\t{Tag = \"default\", SpawnTable = , TargetTag = \"\", Team = \"tm_\", Direction = default, HealthPercent = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadSpawnWithTag": 
+    {
+		"prefix": "SquadSpawnWithTag (BF-Action)",
+		"body": [
+		  "SquadSpawnWithTag\t{Tag = \"default\", TargetTag = \"\", Team = \"tm_\", SquadId = , Direction = default, HealthPercent = default, Amount = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadStop": 
+    {
+		"prefix": "SquadStop (BF-Action)",
+		"body": [
+		  "SquadStop\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadTeleportInRange": 
+    {
+		"prefix": "SquadTeleportInRange (BF-Action)",
+		"body": [
+		  "SquadTeleportInRange\t{Tag = \"default\", Range = default, TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadTypeChange": 
+    {
+		"prefix": "SquadTypeChange (BF-Action)",
+		"body": [
+		  "SquadTypeChange\t{Tag = \"default\", SquadId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadVanish": 
+    {
+		"prefix": "SquadVanish (BF-Action)",
+		"body": [
+		  "SquadVanish\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadVanishInRange": 
+    {
+		"prefix": "SquadVanishInRange (BF-Action)",
+		"body": [
+		  "SquadVanishInRange\t{Tag = \"default\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamBuildingKillableKillInRange": 
+    {
+		"prefix": "TeamBuildingKillableKillInRange (BF-Action)",
+		"body": [
+		  "TeamBuildingKillableKillInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamBuildingKillInRange": 
+    {
+		"prefix": "TeamBuildingKillInRange (BF-Action)",
+		"body": [
+		  "TeamBuildingKillInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamEntityPvETypeKillInRange": 
+    {
+		"prefix": "TeamEntityPvETypeKillInRange (BF-Action)",
+		"body": [
+		  "TeamEntityPvETypeKillInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default, PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadInRangePushBack": 
+    {
+		"prefix": "TeamSquadInRangePushBack (BF-Action)",
+		"body": [
+		  "TeamSquadInRangePushBack\t{TargetTag = \"\", Range = default, Speed = , MaxRadiusType = , Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadTeleportInRange": 
+    {
+		"prefix": "TeamSquadTeleportInRange (BF-Action)",
+		"body": [
+		  "TeamSquadTeleportInRange\t{Tag = \"default\", Range = default, TargetTag = \"\", Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "TutorialDeckSlotDisable": 
+    {
+		"prefix": "TutorialDeckSlotDisable (BF-Action)",
+		"body": [
+		  "TutorialDeckSlotDisable\t{Slot = }"
+		],
+		"description": ""
+	},
+    
+    "TutorialDeckSlotEnable": 
+    {
+		"prefix": "TutorialDeckSlotEnable (BF-Action)",
+		"body": [
+		  "TutorialDeckSlotEnable\t{Slot = }"
+		],
+		"description": ""
+	},
+    
+    "TutorialDetailMarkerAdd": 
+    {
+		"prefix": "TutorialDetailMarkerAdd (BF-Action)",
+		"body": [
+		  "TutorialDetailMarkerAdd\t{MarkerTag = \"\", Widget = \"\", MarkerFileName = \"\", DetailFileName = \"default\", Position = default}"
+		],
+		"description": ""
+	},
+    
+    "TutorialEffectStart": 
+    {
+		"prefix": "TutorialEffectStart (BF-Action)",
+		"body": [
+		  "TutorialEffectStart\t{Tag = \"default\", PvEType = \"\", Effect = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "TutorialEffectStopAll": 
+    {
+		"prefix": "TutorialEffectStopAll (BF-Action)",
+		"body": [
+		  "TutorialEffectStopAll\t{}"
+		],
+		"description": ""
+	},
+    
+    "TutorialMarkerAdd": 
+    {
+		"prefix": "TutorialMarkerAdd (BF-Action)",
+		"body": [
+		  "TutorialMarkerAdd\t{MarkerTag = \"\", Widget = \"\", MarkerFileName = \"\", Position = default}"
+		],
+		"description": ""
+	},
+    
+    "TutorialMarkerRemove": 
+    {
+		"prefix": "TutorialMarkerRemove (BF-Action)",
+		"body": [
+		  "TutorialMarkerRemove\t{MarkerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "UpgradeLevel0": 
+    {
+		"prefix": "UpgradeLevel0 (BF-Action)",
+		"body": [
+		  "UpgradeLevel0\t{}"
+		],
+		"description": ""
+	},
+    
+    "UpgradeLevel1": 
+    {
+		"prefix": "UpgradeLevel1 (BF-Action)",
+		"body": [
+		  "UpgradeLevel1\t{}"
+		],
+		"description": ""
+	},
+    
+    "UpgradeLevel2": 
+    {
+		"prefix": "UpgradeLevel2 (BF-Action)",
+		"body": [
+		  "UpgradeLevel2\t{}"
+		],
+		"description": ""
+	},
+    
+    "UpgradeLevel3": 
+    {
+		"prefix": "UpgradeLevel3 (BF-Action)",
+		"body": [
+		  "UpgradeLevel3\t{}"
+		],
+		"description": ""
+	},
+    
+    "ViewTable": 
+    {
+		"prefix": "ViewTable (BF-Action)",
+		"body": [
+		  "ViewTable\t{}"
+		],
+		"description": ""
+	},
+    
+    "VT": 
+    {
+		"prefix": "VT (BF-Action)",
+		"body": [
+		  "VT\t{}"
+		],
+		"description": ""
+	},
+    
+    "WeatherSet": 
+    {
+		"prefix": "WeatherSet (BF-Action)",
+		"body": [
+		  "WeatherSet\t{Weather = \"\", FadeDuration = default}"
+		],
+		"description": ""
+	},
+
+	// BF-Conditions
+	
+    "AND": 
+    {
+		"prefix": "AND (BF-Condition)",
+		"body": [
+		  "AND\t{UpdateInterval = default}"
+		],
+		"description": ""
+	},
+    
+    "AudioAmbientIsPlaying": 
+    {
+		"prefix": "AudioAmbientIsPlaying (BF-Condition)",
+		"body": [
+		  "AudioAmbientIsPlaying\t{Ambient = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioMusicIsPlaying": 
+    {
+		"prefix": "AudioMusicIsPlaying (BF-Condition)",
+		"body": [
+		  "AudioMusicIsPlaying\t{Music = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioSoundFXIsPlaying": 
+    {
+		"prefix": "AudioSoundFXIsPlaying (BF-Condition)",
+		"body": [
+		  "AudioSoundFXIsPlaying\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioSoundUIIsPlaying": 
+    {
+		"prefix": "AudioSoundUIIsPlaying (BF-Condition)",
+		"body": [
+		  "AudioSoundUIIsPlaying\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioVoiceIsPlaying": 
+    {
+		"prefix": "AudioVoiceIsPlaying (BF-Condition)",
+		"body": [
+		  "AudioVoiceIsPlaying\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierGateIsClosed": 
+    {
+		"prefix": "BarrierGateIsClosed (BF-Condition)",
+		"body": [
+		  "BarrierGateIsClosed\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierGateIsOpen": 
+    {
+		"prefix": "BarrierGateIsOpen (BF-Condition)",
+		"body": [
+		  "BarrierGateIsOpen\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsAlive": 
+    {
+		"prefix": "BarrierIsAlive (BF-Condition)",
+		"body": [
+		  "BarrierIsAlive\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsMirrored": 
+    {
+		"prefix": "BarrierIsMirrored (BF-Condition)",
+		"body": [
+		  "BarrierIsMirrored\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsMounted": 
+    {
+		"prefix": "BarrierIsMounted (BF-Condition)",
+		"body": [
+		  "BarrierIsMounted\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsMountedByPlayer": 
+    {
+		"prefix": "BarrierIsMountedByPlayer (BF-Condition)",
+		"body": [
+		  "BarrierIsMountedByPlayer\t{For = \"ALL\", Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsPreview": 
+    {
+		"prefix": "BarrierIsPreview (BF-Condition)",
+		"body": [
+		  "BarrierIsPreview\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierModuleAmountIsAlive": 
+    {
+		"prefix": "BarrierModuleAmountIsAlive (BF-Condition)",
+		"body": [
+		  "BarrierModuleAmountIsAlive\t{For = \"ALL\", Tag = \"default\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "BarrierModulePercentageIsAlive": 
+    {
+		"prefix": "BarrierModulePercentageIsAlive (BF-Condition)",
+		"body": [
+		  "BarrierModulePercentageIsAlive\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "BuildingIdIsInRange": 
+    {
+		"prefix": "BuildingIdIsInRange (BF-Condition)",
+		"body": [
+		  "BuildingIdIsInRange\t{BuildingId = , TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingIsAlive": 
+    {
+		"prefix": "BuildingIsAlive (BF-Condition)",
+		"body": [
+		  "BuildingIsAlive\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingIsInRange": 
+    {
+		"prefix": "BuildingIsInRange (BF-Condition)",
+		"body": [
+		  "BuildingIsInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeIsActive": 
+    {
+		"prefix": "BuildingModeIsActive (BF-Condition)",
+		"body": [
+		  "BuildingModeIsActive\t{For = \"ALL\", Tag = \"default\", ModeId = }"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeIsEnabled": 
+    {
+		"prefix": "BuildingModeIsEnabled (BF-Condition)",
+		"body": [
+		  "BuildingModeIsEnabled\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingPvETypeAmountIsInRange": 
+    {
+		"prefix": "BuildingPvETypeAmountIsInRange (BF-Condition)",
+		"body": [
+		  "BuildingPvETypeAmountIsInRange\t{TargetTag = \"\", Range = default, PvEType = \"\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "BuildingPvETypeIsInRange": 
+    {
+		"prefix": "BuildingPvETypeIsInRange (BF-Condition)",
+		"body": [
+		  "BuildingPvETypeIsInRange\t{TargetTag = \"\", Range = default, PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingWasJustHit": 
+    {
+		"prefix": "BuildingWasJustHit (BF-Condition)",
+		"body": [
+		  "BuildingWasJustHit\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "DifficultyIsEqual": 
+    {
+		"prefix": "DifficultyIsEqual (BF-Condition)",
+		"body": [
+		  "DifficultyIsEqual\t{}"
+		],
+		"description": ""
+	},
+    
+    "DifficultyIsGreater": 
+    {
+		"prefix": "DifficultyIsGreater (BF-Condition)",
+		"body": [
+		  "DifficultyIsGreater\t{}"
+		],
+		"description": ""
+	},
+    
+    "DifficultyIsLess": 
+    {
+		"prefix": "DifficultyIsLess (BF-Condition)",
+		"body": [
+		  "DifficultyIsLess\t{}"
+		],
+		"description": ""
+	},
+    
+    "EntityFlagIsTrue": 
+    {
+		"prefix": "EntityFlagIsTrue (BF-Condition)",
+		"body": [
+		  "EntityFlagIsTrue\t{Name = \"ef_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityHasJustCastedSpell": 
+    {
+		"prefix": "EntityHasJustCastedSpell (BF-Condition)",
+		"body": [
+		  "EntityHasJustCastedSpell\t{For = \"ALL\", Tag = \"default\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthIsGreater": 
+    {
+		"prefix": "EntityHealthIsGreater (BF-Condition)",
+		"body": [
+		  "EntityHealthIsGreater\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthIsLess": 
+    {
+		"prefix": "EntityHealthIsLess (BF-Condition)",
+		"body": [
+		  "EntityHealthIsLess\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthPercentIsGreatest": 
+    {
+		"prefix": "EntityHealthPercentIsGreatest (BF-Condition)",
+		"body": [
+		  "EntityHealthPercentIsGreatest\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthPercentIsLowest": 
+    {
+		"prefix": "EntityHealthPercentIsLowest (BF-Condition)",
+		"body": [
+		  "EntityHealthPercentIsLowest\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsAlive": 
+    {
+		"prefix": "EntityIsAlive (BF-Condition)",
+		"body": [
+		  "EntityIsAlive\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsInPlayableArea": 
+    {
+		"prefix": "EntityIsInPlayableArea (BF-Condition)",
+		"body": [
+		  "EntityIsInPlayableArea\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsInRange": 
+    {
+		"prefix": "EntityIsInRange (BF-Condition)",
+		"body": [
+		  "EntityIsInRange\t{For = \"ALL\", Tag = \"default\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsInVisibleArea": 
+    {
+		"prefix": "EntityIsInVisibleArea (BF-Condition)",
+		"body": [
+		  "EntityIsInVisibleArea\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsOwnedByPlayer": 
+    {
+		"prefix": "EntityIsOwnedByPlayer (BF-Condition)",
+		"body": [
+		  "EntityIsOwnedByPlayer\t{For = \"ALL\", Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsOwnedByTeam": 
+    {
+		"prefix": "EntityIsOwnedByTeam (BF-Condition)",
+		"body": [
+		  "EntityIsOwnedByTeam\t{For = \"ALL\", Tag = \"default\", Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastIsBlocked": 
+    {
+		"prefix": "EntitySpellCastIsBlocked (BF-Condition)",
+		"body": [
+		  "EntitySpellCastIsBlocked\t{For = \"ALL\", Tag = \"default\", SpellId = , DoGotoCheck = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityTimerIsElapsed": 
+    {
+		"prefix": "EntityTimerIsElapsed (BF-Condition)",
+		"body": [
+		  "EntityTimerIsElapsed\t{Name = \"et_\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityTimerIsRunning": 
+    {
+		"prefix": "EntityTimerIsRunning (BF-Condition)",
+		"body": [
+		  "EntityTimerIsRunning\t{Name = \"et_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsEqual": 
+    {
+		"prefix": "EntityValueIsEqual (BF-Condition)",
+		"body": [
+		  "EntityValueIsEqual\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsEqualComparedTo": 
+    {
+		"prefix": "EntityValueIsEqualComparedTo (BF-Condition)",
+		"body": [
+		  "EntityValueIsEqualComparedTo\t{Name = \"ev_\", CompareTo = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsGreater": 
+    {
+		"prefix": "EntityValueIsGreater (BF-Condition)",
+		"body": [
+		  "EntityValueIsGreater\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsGreaterComparedTo": 
+    {
+		"prefix": "EntityValueIsGreaterComparedTo (BF-Condition)",
+		"body": [
+		  "EntityValueIsGreaterComparedTo\t{Name = \"ev_\", CompareTo = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsLess": 
+    {
+		"prefix": "EntityValueIsLess (BF-Condition)",
+		"body": [
+		  "EntityValueIsLess\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsLessComparedTo": 
+    {
+		"prefix": "EntityValueIsLessComparedTo (BF-Condition)",
+		"body": [
+		  "EntityValueIsLessComparedTo\t{Name = \"ev_\", CompareTo = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapFlagIsTrue": 
+    {
+		"prefix": "MapFlagIsTrue (BF-Condition)",
+		"body": [
+		  "MapFlagIsTrue\t{Name = \"mf_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapTimerIsElapsed": 
+    {
+		"prefix": "MapTimerIsElapsed (BF-Condition)",
+		"body": [
+		  "MapTimerIsElapsed\t{Name = \"mt_\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "MapTimerIsRunning": 
+    {
+		"prefix": "MapTimerIsRunning (BF-Condition)",
+		"body": [
+		  "MapTimerIsRunning\t{Name = \"mt_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsEqual": 
+    {
+		"prefix": "MapValueIsEqual (BF-Condition)",
+		"body": [
+		  "MapValueIsEqual\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsEqualComparedTo": 
+    {
+		"prefix": "MapValueIsEqualComparedTo (BF-Condition)",
+		"body": [
+		  "MapValueIsEqualComparedTo\t{Name = \"mv_\", CompareTo = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsGreater": 
+    {
+		"prefix": "MapValueIsGreater (BF-Condition)",
+		"body": [
+		  "MapValueIsGreater\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsGreaterComparedTo": 
+    {
+		"prefix": "MapValueIsGreaterComparedTo (BF-Condition)",
+		"body": [
+		  "MapValueIsGreaterComparedTo\t{Name = \"mv_\", CompareTo = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsLess": 
+    {
+		"prefix": "MapValueIsLess (BF-Condition)",
+		"body": [
+		  "MapValueIsLess\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterIsEqual": 
+    {
+		"prefix": "MissionCounterIsEqual (BF-Condition)",
+		"body": [
+		  "MissionCounterIsEqual\t{Player = \"ALL\", CounterTag = \"\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsLessComparedTo": 
+    {
+		"prefix": "MapValueIsLessComparedTo (BF-Condition)",
+		"body": [
+		  "MapValueIsLessComparedTo\t{Name = \"mv_\", CompareTo = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterIsGreater": 
+    {
+		"prefix": "MissionCounterIsGreater (BF-Condition)",
+		"body": [
+		  "MissionCounterIsGreater\t{Player = \"ALL\", CounterTag = \"\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterIsLess": 
+    {
+		"prefix": "MissionCounterIsLess (BF-Condition)",
+		"body": [
+		  "MissionCounterIsLess\t{Player = \"ALL\", CounterTag = \"\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MissionDifficultyIsEqual": 
+    {
+		"prefix": "MissionDifficultyIsEqual (BF-Condition)",
+		"body": [
+		  "MissionDifficultyIsEqual\t{Difficulty = }"
+		],
+		"description": ""
+	},
+    
+    "MissionDifficultyIsGreater": 
+    {
+		"prefix": "MissionDifficultyIsGreater (BF-Condition)",
+		"body": [
+		  "MissionDifficultyIsGreater\t{Difficulty = }"
+		],
+		"description": ""
+	},
+    
+    "MissionDifficultyIsLess": 
+    {
+		"prefix": "MissionDifficultyIsLess (BF-Condition)",
+		"body": [
+		  "MissionDifficultyIsLess\t{Difficulty = }"
+		],
+		"description": ""
+	},
+    
+    "MissionStartTimerIsElapsed": 
+    {
+		"prefix": "MissionStartTimerIsElapsed (BF-Condition)",
+		"body": [
+		  "MissionStartTimerIsElapsed\t{Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerHasRunOut": 
+    {
+		"prefix": "MissionTimerHasRunOut (BF-Condition)",
+		"body": [
+		  "MissionTimerHasRunOut\t{Player = \"ALL\", TimerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerIsDisplayed": 
+    {
+		"prefix": "MissionTimerIsDisplayed (BF-Condition)",
+		"body": [
+		  "MissionTimerIsDisplayed\t{Player = \"ALL\", TimerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerIsElapsed": 
+    {
+		"prefix": "MissionTimerIsElapsed (BF-Condition)",
+		"body": [
+		  "MissionTimerIsElapsed\t{Player = \"ALL\", TimerTag = \"\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "NetworkFlagIsTrue": 
+    {
+		"prefix": "NetworkFlagIsTrue (BF-Condition)",
+		"body": [
+		  "NetworkFlagIsTrue\t{Name = \"nf_\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueIsEqual": 
+    {
+		"prefix": "NetworkValueIsEqual (BF-Condition)",
+		"body": [
+		  "NetworkValueIsEqual\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueIsGreater": 
+    {
+		"prefix": "NetworkValueIsGreater (BF-Condition)",
+		"body": [
+		  "NetworkValueIsGreater\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueIsLess": 
+    {
+		"prefix": "NetworkValueIsLess (BF-Condition)",
+		"body": [
+		  "NetworkValueIsLess\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "ObjectIsOnMap": 
+    {
+		"prefix": "ObjectIsOnMap (BF-Condition)",
+		"body": [
+		  "ObjectIsOnMap\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "OR": 
+    {
+		"prefix": "OR (BF-Condition)",
+		"body": [
+		  "OR\t{UpdateInterval = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingAmountIsEqual": 
+    {
+		"prefix": "PlayerBuildingAmountIsEqual (BF-Condition)",
+		"body": [
+		  "PlayerBuildingAmountIsEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingAmountIsGreater": 
+    {
+		"prefix": "PlayerBuildingAmountIsGreater (BF-Condition)",
+		"body": [
+		  "PlayerBuildingAmountIsGreater\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingAmountIsLess": 
+    {
+		"prefix": "PlayerBuildingAmountIsLess (BF-Condition)",
+		"body": [
+		  "PlayerBuildingAmountIsLess\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingIsInRange": 
+    {
+		"prefix": "PlayerBuildingIsInRange (BF-Condition)",
+		"body": [
+		  "PlayerBuildingIsInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingKillableIsInRange": 
+    {
+		"prefix": "PlayerBuildingKillableIsInRange (BF-Condition)",
+		"body": [
+		  "PlayerBuildingKillableIsInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerFlagIsTrue": 
+    {
+		"prefix": "PlayerFlagIsTrue (BF-Condition)",
+		"body": [
+		  "PlayerFlagIsTrue\t{Player = \"ALL\", Name = \"pf_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorAmountIsEqual": 
+    {
+		"prefix": "PlayerGeneratorAmountIsEqual (BF-Condition)",
+		"body": [
+		  "PlayerGeneratorAmountIsEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorAmountIsGreater": 
+    {
+		"prefix": "PlayerGeneratorAmountIsGreater (BF-Condition)",
+		"body": [
+		  "PlayerGeneratorAmountIsGreater\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorAmountIsLess": 
+    {
+		"prefix": "PlayerGeneratorAmountIsLess (BF-Condition)",
+		"body": [
+		  "PlayerGeneratorAmountIsLess\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasGameLost": 
+    {
+		"prefix": "PlayerHasGameLost (BF-Condition)",
+		"body": [
+		  "PlayerHasGameLost\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasGameWon": 
+    {
+		"prefix": "PlayerHasGameWon (BF-Condition)",
+		"body": [
+		  "PlayerHasGameWon\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasJustPlayedCardId": 
+    {
+		"prefix": "PlayerHasJustPlayedCardId (BF-Condition)",
+		"body": [
+		  "PlayerHasJustPlayedCardId\t{Player = \"ALL\", CardId = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasJustPlayedCardPvEType": 
+    {
+		"prefix": "PlayerHasJustPlayedCardPvEType (BF-Condition)",
+		"body": [
+		  "PlayerHasJustPlayedCardPvEType\t{Player = \"ALL\", PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerIsHuman": 
+    {
+		"prefix": "PlayerIsHuman (BF-Condition)",
+		"body": [
+		  "PlayerIsHuman\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentAmountIsEqual": 
+    {
+		"prefix": "PlayerMonumentAmountIsEqual (BF-Condition)",
+		"body": [
+		  "PlayerMonumentAmountIsEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentAmountIsGreater": 
+    {
+		"prefix": "PlayerMonumentAmountIsGreater (BF-Condition)",
+		"body": [
+		  "PlayerMonumentAmountIsGreater\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentAmountIsLess": 
+    {
+		"prefix": "PlayerMonumentAmountIsLess (BF-Condition)",
+		"body": [
+		  "PlayerMonumentAmountIsLess\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbAmountIsEqual": 
+    {
+		"prefix": "PlayerOrbAmountIsEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbAmountIsEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbAmountIsGreater": 
+    {
+		"prefix": "PlayerOrbAmountIsGreater (BF-Condition)",
+		"body": [
+		  "PlayerOrbAmountIsGreater\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbAmountIsLess": 
+    {
+		"prefix": "PlayerOrbAmountIsLess (BF-Condition)",
+		"body": [
+		  "PlayerOrbAmountIsLess\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbBuildInProgressAmountIsEqual": 
+    {
+		"prefix": "PlayerOrbBuildInProgressAmountIsEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbBuildInProgressAmountIsEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbBuildInProgressAmountIsGreater": 
+    {
+		"prefix": "PlayerOrbBuildInProgressAmountIsGreater (BF-Condition)",
+		"body": [
+		  "PlayerOrbBuildInProgressAmountIsGreater\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbBuildInProgressAmountIsLess": 
+    {
+		"prefix": "PlayerOrbBuildInProgressAmountIsLess (BF-Condition)",
+		"body": [
+		  "PlayerOrbBuildInProgressAmountIsLess\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadAmountIsEqual": 
+    {
+		"prefix": "PlayerSquadAmountIsEqual (BF-Condition)",
+		"body": [
+		  "PlayerSquadAmountIsEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadAmountIsGreater": 
+    {
+		"prefix": "PlayerSquadAmountIsGreater (BF-Condition)",
+		"body": [
+		  "PlayerSquadAmountIsGreater\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadAmountIsLess": 
+    {
+		"prefix": "PlayerSquadAmountIsLess (BF-Condition)",
+		"body": [
+		  "PlayerSquadAmountIsLess\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadFlyingIsInRange": 
+    {
+		"prefix": "PlayerSquadFlyingIsInRange (BF-Condition)",
+		"body": [
+		  "PlayerSquadFlyingIsInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadIsInRange": 
+    {
+		"prefix": "PlayerSquadIsInRange (BF-Condition)",
+		"body": [
+		  "PlayerSquadIsInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadOnGroundIsInRange": 
+    {
+		"prefix": "PlayerSquadOnGroundIsInRange (BF-Condition)",
+		"body": [
+		  "PlayerSquadOnGroundIsInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerTimerIsElapsed": 
+    {
+		"prefix": "PlayerTimerIsElapsed (BF-Condition)",
+		"body": [
+		  "PlayerTimerIsElapsed\t{Player = \"ALL\", Name = \"pt_\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerTimerIsRunning": 
+    {
+		"prefix": "PlayerTimerIsRunning (BF-Condition)",
+		"body": [
+		  "PlayerTimerIsRunning\t{Player = \"ALL\", Name = \"pt_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueIsEqual": 
+    {
+		"prefix": "PlayerValueIsEqual (BF-Condition)",
+		"body": [
+		  "PlayerValueIsEqual\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueIsGreater": 
+    {
+		"prefix": "PlayerValueIsGreater (BF-Condition)",
+		"body": [
+		  "PlayerValueIsGreater\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueIsLess": 
+    {
+		"prefix": "PlayerValueIsLess (BF-Condition)",
+		"body": [
+		  "PlayerValueIsLess\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "SquadAliveIsIdle": 
+    {
+		"prefix": "SquadAliveIsIdle (BF-Condition)",
+		"body": [
+		  "SquadAliveIsIdle\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadFlyingIsInRange": 
+    {
+		"prefix": "SquadFlyingIsInRange (BF-Condition)",
+		"body": [
+		  "SquadFlyingIsInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadHasAbility": 
+    {
+		"prefix": "SquadHasAbility (BF-Condition)",
+		"body": [
+		  "SquadHasAbility\t{For = \"ALL\", Tag = \"default\", AbilityId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadHasAbilityLine": 
+    {
+		"prefix": "SquadHasAbilityLine (BF-Condition)",
+		"body": [
+		  "SquadHasAbilityLine\t{For = \"ALL\", Tag = \"default\", AbilityLineId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadHasHate": 
+    {
+		"prefix": "SquadHasHate (BF-Condition)",
+		"body": [
+		  "SquadHasHate\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadHasMeleeAttackerInRange": 
+    {
+		"prefix": "SquadHasMeleeAttackerInRange (BF-Condition)",
+		"body": [
+		  "SquadHasMeleeAttackerInRange\t{For = \"ALL\", Tag = \"default\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdIsInRange": 
+    {
+		"prefix": "SquadIdIsInRange (BF-Condition)",
+		"body": [
+		  "SquadIdIsInRange\t{SquadId = , TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleIsInRange": 
+    {
+		"prefix": "SquadIdleIsInRange (BF-Condition)",
+		"body": [
+		  "SquadIdleIsInRange\t{For = \"ALL\", Tag = \"default\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleTimerIsElapsed": 
+    {
+		"prefix": "SquadIdleTimerIsElapsed (BF-Condition)",
+		"body": [
+		  "SquadIdleTimerIsElapsed\t{For = \"ALL\", Tag = \"default\", Seconds = default, Minutes = default, ConsiderDeadAsIdle = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsAlive": 
+    {
+		"prefix": "SquadIsAlive (BF-Condition)",
+		"body": [
+		  "SquadIsAlive\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsFighting": 
+    {
+		"prefix": "SquadIsFighting (BF-Condition)",
+		"body": [
+		  "SquadIsFighting\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsIdle": 
+    {
+		"prefix": "SquadIsIdle (BF-Condition)",
+		"body": [
+		  "SquadIsIdle\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsInGotoMode": 
+    {
+		"prefix": "SquadIsInGotoMode (BF-Condition)",
+		"body": [
+		  "SquadIsInGotoMode\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsInRange": 
+    {
+		"prefix": "SquadIsInRange (BF-Condition)",
+		"body": [
+		  "SquadIsInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsMountedOnBarrier": 
+    {
+		"prefix": "SquadIsMountedOnBarrier (BF-Condition)",
+		"body": [
+		  "SquadIsMountedOnBarrier\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsSpellCasting": 
+    {
+		"prefix": "SquadIsSpellCasting (BF-Condition)",
+		"body": [
+		  "SquadIsSpellCasting\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadMemberAmountIsAlive": 
+    {
+		"prefix": "SquadMemberAmountIsAlive (BF-Condition)",
+		"body": [
+		  "SquadMemberAmountIsAlive\t{For = \"ALL\", Tag = \"default\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "SquadMemberPercentageIsAlive": 
+    {
+		"prefix": "SquadMemberPercentageIsAlive (BF-Condition)",
+		"body": [
+		  "SquadMemberPercentageIsAlive\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "SquadModeIsActive": 
+    {
+		"prefix": "SquadModeIsActive (BF-Condition)",
+		"body": [
+		  "SquadModeIsActive\t{For = \"ALL\", Tag = \"default\", ModeId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadModeIsEnabled": 
+    {
+		"prefix": "SquadModeIsEnabled (BF-Condition)",
+		"body": [
+		  "SquadModeIsEnabled\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadOnGroundIsInRange": 
+    {
+		"prefix": "SquadOnGroundIsInRange (BF-Condition)",
+		"body": [
+		  "SquadOnGroundIsInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadPvETypeAmountIsInRange": 
+    {
+		"prefix": "SquadPvETypeAmountIsInRange (BF-Condition)",
+		"body": [
+		  "SquadPvETypeAmountIsInRange\t{TargetTag = \"\", Range = default, PvEType = \"\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "SquadPvETypeIsInRange": 
+    {
+		"prefix": "SquadPvETypeIsInRange (BF-Condition)",
+		"body": [
+		  "SquadPvETypeIsInRange\t{TargetTag = \"\", Range = default, PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadWasJustHit": 
+    {
+		"prefix": "SquadWasJustHit (BF-Condition)",
+		"body": [
+		  "SquadWasJustHit\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadWasJustHitByPlayer": 
+    {
+		"prefix": "SquadWasJustHitByPlayer (BF-Condition)",
+		"body": [
+		  "SquadWasJustHitByPlayer\t{For = \"ALL\", Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadWasJustHitByTeam": 
+    {
+		"prefix": "SquadWasJustHitByTeam (BF-Condition)",
+		"body": [
+		  "SquadWasJustHitByTeam\t{For = \"ALL\", Tag = \"default\", Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "TeamBuildingIsInRange": 
+    {
+		"prefix": "TeamBuildingIsInRange (BF-Condition)",
+		"body": [
+		  "TeamBuildingIsInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamBuildingKillableIsInRange": 
+    {
+		"prefix": "TeamBuildingKillableIsInRange (BF-Condition)",
+		"body": [
+		  "TeamBuildingKillableIsInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadFlyingIsInRange": 
+    {
+		"prefix": "TeamSquadFlyingIsInRange (BF-Condition)",
+		"body": [
+		  "TeamSquadFlyingIsInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadIsInRange": 
+    {
+		"prefix": "TeamSquadIsInRange (BF-Condition)",
+		"body": [
+		  "TeamSquadIsInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadOnGroundIsInRange": 
+    {
+		"prefix": "TeamSquadOnGroundIsInRange (BF-Condition)",
+		"body": [
+		  "TeamSquadOnGroundIsInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TutorialEntityIsSelected": 
+    {
+		"prefix": "TutorialEntityIsSelected (BF-Condition)",
+		"body": [
+		  "TutorialEntityIsSelected\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "TutorialEntityPvETypeIsSelected": 
+    {
+		"prefix": "TutorialEntityPvETypeIsSelected (BF-Condition)",
+		"body": [
+		  "TutorialEntityPvETypeIsSelected\t{PvEType = \"\"}"
+		],
+		"description": ""
+	},
+
+	//BF-Conditions-Negated
+	
+    "AudioAmbientIsNotPlaying": 
+    {
+		"prefix": "AudioAmbientIsNotPlaying (BF-Condition)",
+		"body": [
+		  "AudioAmbientIsNotPlaying\t{Ambient = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioMusicIsNotPlaying": 
+    {
+		"prefix": "AudioMusicIsNotPlaying (BF-Condition)",
+		"body": [
+		  "AudioMusicIsNotPlaying\t{Music = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioSoundFXIsNotPlaying": 
+    {
+		"prefix": "AudioSoundFXIsNotPlaying (BF-Condition)",
+		"body": [
+		  "AudioSoundFXIsNotPlaying\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioSoundUIIsNotPlaying": 
+    {
+		"prefix": "AudioSoundUIIsNotPlaying (BF-Condition)",
+		"body": [
+		  "AudioSoundUIIsNotPlaying\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "AudioVoiceIsNotPlaying": 
+    {
+		"prefix": "AudioVoiceIsNotPlaying (BF-Condition)",
+		"body": [
+		  "AudioVoiceIsNotPlaying\t{Sound = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierGateIsNotClosed": 
+    {
+		"prefix": "BarrierGateIsNotClosed (BF-Condition)",
+		"body": [
+		  "BarrierGateIsNotClosed\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierGateIsNotOpen": 
+    {
+		"prefix": "BarrierGateIsNotOpen (BF-Condition)",
+		"body": [
+		  "BarrierGateIsNotOpen\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsBuilt": 
+    {
+		"prefix": "BarrierIsBuilt (BF-Condition)",
+		"body": [
+		  "BarrierIsBuilt\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsDestroyed": 
+    {
+		"prefix": "BarrierIsDestroyed (BF-Condition)",
+		"body": [
+		  "BarrierIsDestroyed\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsNotMirrored": 
+    {
+		"prefix": "BarrierIsNotMirrored (BF-Condition)",
+		"body": [
+		  "BarrierIsNotMirrored\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsNotMounted": 
+    {
+		"prefix": "BarrierIsNotMounted (BF-Condition)",
+		"body": [
+		  "BarrierIsNotMounted\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierIsNotMountedByPlayer": 
+    {
+		"prefix": "BarrierIsNotMountedByPlayer (BF-Condition)",
+		"body": [
+		  "BarrierIsNotMountedByPlayer\t{For = \"ALL\", Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "BarrierModuleAmountIsDead": 
+    {
+		"prefix": "BarrierModuleAmountIsDead (BF-Condition)",
+		"body": [
+		  "BarrierModuleAmountIsDead\t{For = \"ALL\", Tag = \"default\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "BarrierModulePercentageIsDead": 
+    {
+		"prefix": "BarrierModulePercentageIsDead (BF-Condition)",
+		"body": [
+		  "BarrierModulePercentageIsDead\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "BuildingIdIsNotInRange": 
+    {
+		"prefix": "BuildingIdIsNotInRange (BF-Condition)",
+		"body": [
+		  "BuildingIdIsNotInRange\t{BuildingId = , TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingIsDestroyed": 
+    {
+		"prefix": "BuildingIsDestroyed (BF-Condition)",
+		"body": [
+		  "BuildingIsDestroyed\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingIsNotInRange": 
+    {
+		"prefix": "BuildingIsNotInRange (BF-Condition)",
+		"body": [
+		  "BuildingIsNotInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeIsDisabled": 
+    {
+		"prefix": "BuildingModeIsDisabled (BF-Condition)",
+		"body": [
+		  "BuildingModeIsDisabled\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingModeIsNotActive": 
+    {
+		"prefix": "BuildingModeIsNotActive (BF-Condition)",
+		"body": [
+		  "BuildingModeIsNotActive\t{For = \"ALL\", Tag = \"default\", ModeId = }"
+		],
+		"description": ""
+	},
+    
+    "BuildingPvETypeIsNotInRange": 
+    {
+		"prefix": "BuildingPvETypeIsNotInRange (BF-Condition)",
+		"body": [
+		  "BuildingPvETypeIsNotInRange\t{TargetTag = \"\", Range = default, PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "BuildingWasNotJustHit": 
+    {
+		"prefix": "BuildingWasNotJustHit (BF-Condition)",
+		"body": [
+		  "BuildingWasNotJustHit\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "DifficultyIsGreaterOrEqual": 
+    {
+		"prefix": "DifficultyIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "DifficultyIsGreaterOrEqual\t{}"
+		],
+		"description": ""
+	},
+    
+    "DifficultyIsLessOrEqual": 
+    {
+		"prefix": "DifficultyIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "DifficultyIsLessOrEqual\t{}"
+		],
+		"description": ""
+	},
+    
+    "DifficultyIsNotEqual": 
+    {
+		"prefix": "DifficultyIsNotEqual (BF-Condition)",
+		"body": [
+		  "DifficultyIsNotEqual\t{}"
+		],
+		"description": ""
+	},
+    
+    "EntityFlagIsFalse": 
+    {
+		"prefix": "EntityFlagIsFalse (BF-Condition)",
+		"body": [
+		  "EntityFlagIsFalse\t{Name = \"ef_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityHasNotJustCastedSpell": 
+    {
+		"prefix": "EntityHasNotJustCastedSpell (BF-Condition)",
+		"body": [
+		  "EntityHasNotJustCastedSpell\t{For = \"ALL\", Tag = \"default\", SpellId = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthIsGreaterOrEqual": 
+    {
+		"prefix": "EntityHealthIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "EntityHealthIsGreaterOrEqual\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthIsLessOrEqual": 
+    {
+		"prefix": "EntityHealthIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "EntityHealthIsLessOrEqual\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthPercentIsNotGreatest": 
+    {
+		"prefix": "EntityHealthPercentIsNotGreatest (BF-Condition)",
+		"body": [
+		  "EntityHealthPercentIsNotGreatest\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityHealthPercentIsNotLowest": 
+    {
+		"prefix": "EntityHealthPercentIsNotLowest (BF-Condition)",
+		"body": [
+		  "EntityHealthPercentIsNotLowest\t{Tag = \"default\", TargetTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsDead": 
+    {
+		"prefix": "EntityIsDead (BF-Condition)",
+		"body": [
+		  "EntityIsDead\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsNotInPlayableArea": 
+    {
+		"prefix": "EntityIsNotInPlayableArea (BF-Condition)",
+		"body": [
+		  "EntityIsNotInPlayableArea\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsNotInRange": 
+    {
+		"prefix": "EntityIsNotInRange (BF-Condition)",
+		"body": [
+		  "EntityIsNotInRange\t{For = \"ALL\", Tag = \"default\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsNotInVisibleArea": 
+    {
+		"prefix": "EntityIsNotInVisibleArea (BF-Condition)",
+		"body": [
+		  "EntityIsNotInVisibleArea\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsNotOwnedByPlayer": 
+    {
+		"prefix": "EntityIsNotOwnedByPlayer (BF-Condition)",
+		"body": [
+		  "EntityIsNotOwnedByPlayer\t{For = \"ALL\", Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityIsNotOwnedByTeam": 
+    {
+		"prefix": "EntityIsNotOwnedByTeam (BF-Condition)",
+		"body": [
+		  "EntityIsNotOwnedByTeam\t{For = \"ALL\", Tag = \"default\", Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntitySpellCastIsNotBlocked": 
+    {
+		"prefix": "EntitySpellCastIsNotBlocked (BF-Condition)",
+		"body": [
+		  "EntitySpellCastIsNotBlocked\t{For = \"ALL\", Tag = \"default\", SpellId = , DoGotoCheck = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityTimerIsNotElapsed": 
+    {
+		"prefix": "EntityTimerIsNotElapsed (BF-Condition)",
+		"body": [
+		  "EntityTimerIsNotElapsed\t{Name = \"et_\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "EntityTimerIsNotRunning": 
+    {
+		"prefix": "EntityTimerIsNotRunning (BF-Condition)",
+		"body": [
+		  "EntityTimerIsNotRunning\t{Name = \"et_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsGreaterOrEqual": 
+    {
+		"prefix": "EntityValueIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "EntityValueIsGreaterOrEqual\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsGreaterOrEqualComparedTo": 
+    {
+		"prefix": "EntityValueIsGreaterOrEqualComparedTo (BF-Condition)",
+		"body": [
+		  "EntityValueIsGreaterOrEqualComparedTo\t{Name = \"ev_\", CompareTo = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsLessOrEqual": 
+    {
+		"prefix": "EntityValueIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "EntityValueIsLessOrEqual\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsLessOrEqualComparedTo": 
+    {
+		"prefix": "EntityValueIsLessOrEqualComparedTo (BF-Condition)",
+		"body": [
+		  "EntityValueIsLessOrEqualComparedTo\t{Name = \"ev_\", CompareTo = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsNotEqual": 
+    {
+		"prefix": "EntityValueIsNotEqual (BF-Condition)",
+		"body": [
+		  "EntityValueIsNotEqual\t{Name = \"ev_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "EntityValueIsNotEqualComparedTo": 
+    {
+		"prefix": "EntityValueIsNotEqualComparedTo (BF-Condition)",
+		"body": [
+		  "EntityValueIsNotEqualComparedTo\t{Name = \"ev_\", CompareTo = \"ev_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapFlagIsFalse": 
+    {
+		"prefix": "MapFlagIsFalse (BF-Condition)",
+		"body": [
+		  "MapFlagIsFalse\t{Name = \"mf_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapTimerIsNotElapsed": 
+    {
+		"prefix": "MapTimerIsNotElapsed (BF-Condition)",
+		"body": [
+		  "MapTimerIsNotElapsed\t{Name = \"mt_\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "MapTimerIsNotRunning": 
+    {
+		"prefix": "MapTimerIsNotRunning (BF-Condition)",
+		"body": [
+		  "MapTimerIsNotRunning\t{Name = \"mt_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsGreaterOrEqual": 
+    {
+		"prefix": "MapValueIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "MapValueIsGreaterOrEqual\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsGreaterOrEqualComparedTo": 
+    {
+		"prefix": "MapValueIsGreaterOrEqualComparedTo (BF-Condition)",
+		"body": [
+		  "MapValueIsGreaterOrEqualComparedTo\t{Name = \"mv_\", CompareTo = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsLessOrEqual": 
+    {
+		"prefix": "MapValueIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "MapValueIsLessOrEqual\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsLessOrEqualComparedTo": 
+    {
+		"prefix": "MapValueIsLessOrEqualComparedTo (BF-Condition)",
+		"body": [
+		  "MapValueIsLessOrEqualComparedTo\t{Name = \"mv_\", CompareTo = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsNotEqual": 
+    {
+		"prefix": "MapValueIsNotEqual (BF-Condition)",
+		"body": [
+		  "MapValueIsNotEqual\t{Name = \"mv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MapValueIsNotEqualComparedTo": 
+    {
+		"prefix": "MapValueIsNotEqualComparedTo (BF-Condition)",
+		"body": [
+		  "MapValueIsNotEqualComparedTo\t{Name = \"mv_\", CompareTo = \"mv_\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterIsGreaterOrEqual": 
+    {
+		"prefix": "MissionCounterIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "MissionCounterIsGreaterOrEqual\t{Player = \"ALL\", CounterTag = \"\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterIsLessOrEqual": 
+    {
+		"prefix": "MissionCounterIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "MissionCounterIsLessOrEqual\t{Player = \"ALL\", CounterTag = \"\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MissionCounterIsNotEqual": 
+    {
+		"prefix": "MissionCounterIsNotEqual (BF-Condition)",
+		"body": [
+		  "MissionCounterIsNotEqual\t{Player = \"ALL\", CounterTag = \"\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "MissionDifficultyIsGreaterOrEqual": 
+    {
+		"prefix": "MissionDifficultyIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "MissionDifficultyIsGreaterOrEqual\t{Difficulty = }"
+		],
+		"description": ""
+	},
+    
+    "MissionDifficultyIsLessOrEqual": 
+    {
+		"prefix": "MissionDifficultyIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "MissionDifficultyIsLessOrEqual\t{Difficulty = }"
+		],
+		"description": ""
+	},
+    
+    "MissionDifficultyIsNotEqual": 
+    {
+		"prefix": "MissionDifficultyIsNotEqual (BF-Condition)",
+		"body": [
+		  "MissionDifficultyIsNotEqual\t{Difficulty = }"
+		],
+		"description": ""
+	},
+    
+    "MissionStartTimerIsNotElapsed": 
+    {
+		"prefix": "MissionStartTimerIsNotElapsed (BF-Condition)",
+		"body": [
+		  "MissionStartTimerIsNotElapsed\t{Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerHasNotRunOut": 
+    {
+		"prefix": "MissionTimerHasNotRunOut (BF-Condition)",
+		"body": [
+		  "MissionTimerHasNotRunOut\t{Player = \"ALL\", TimerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerIsNotDisplayed": 
+    {
+		"prefix": "MissionTimerIsNotDisplayed (BF-Condition)",
+		"body": [
+		  "MissionTimerIsNotDisplayed\t{Player = \"ALL\", TimerTag = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "MissionTimerIsNotElapsed": 
+    {
+		"prefix": "MissionTimerIsNotElapsed (BF-Condition)",
+		"body": [
+		  "MissionTimerIsNotElapsed\t{Player = \"ALL\", TimerTag = \"\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "NetworkFlagIsFalse": 
+    {
+		"prefix": "NetworkFlagIsFalse (BF-Condition)",
+		"body": [
+		  "NetworkFlagIsFalse\t{Name = \"nf_\"}"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueIsGreaterOrEqual": 
+    {
+		"prefix": "NetworkValueIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "NetworkValueIsGreaterOrEqual\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueIsLessOrEqual": 
+    {
+		"prefix": "NetworkValueIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "NetworkValueIsLessOrEqual\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "NetworkValueIsNotEqual": 
+    {
+		"prefix": "NetworkValueIsNotEqual (BF-Condition)",
+		"body": [
+		  "NetworkValueIsNotEqual\t{Name = \"nv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "NotAND": 
+    {
+		"prefix": "NotAND (BF-Condition)",
+		"body": [
+		  "NotAND\t{UpdateInterval = default}"
+		],
+		"description": ""
+	},
+    
+    "NotOR": 
+    {
+		"prefix": "NotOR (BF-Condition)",
+		"body": [
+		  "NotOR\t{UpdateInterval = default}"
+		],
+		"description": ""
+	},
+    
+    "ObjectIsNotOnMap": 
+    {
+		"prefix": "ObjectIsNotOnMap (BF-Condition)",
+		"body": [
+		  "ObjectIsNotOnMap\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingAmountIsGreaterOrEqual": 
+    {
+		"prefix": "PlayerBuildingAmountIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerBuildingAmountIsGreaterOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingAmountIsLessOrEqual": 
+    {
+		"prefix": "PlayerBuildingAmountIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerBuildingAmountIsLessOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingAmountIsNotEqual": 
+    {
+		"prefix": "PlayerBuildingAmountIsNotEqual (BF-Condition)",
+		"body": [
+		  "PlayerBuildingAmountIsNotEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingIsNotInRange": 
+    {
+		"prefix": "PlayerBuildingIsNotInRange (BF-Condition)",
+		"body": [
+		  "PlayerBuildingIsNotInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerBuildingKillableIsNotInRange": 
+    {
+		"prefix": "PlayerBuildingKillableIsNotInRange (BF-Condition)",
+		"body": [
+		  "PlayerBuildingKillableIsNotInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerFlagIsFalse": 
+    {
+		"prefix": "PlayerFlagIsFalse (BF-Condition)",
+		"body": [
+		  "PlayerFlagIsFalse\t{Player = \"ALL\", Name = \"pf_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorAmountIsGreaterOrEqual": 
+    {
+		"prefix": "PlayerGeneratorAmountIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerGeneratorAmountIsGreaterOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorAmountIsLessOrEqual": 
+    {
+		"prefix": "PlayerGeneratorAmountIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerGeneratorAmountIsLessOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerGeneratorAmountIsNotEqual": 
+    {
+		"prefix": "PlayerGeneratorAmountIsNotEqual (BF-Condition)",
+		"body": [
+		  "PlayerGeneratorAmountIsNotEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasNotGameLost": 
+    {
+		"prefix": "PlayerHasNotGameLost (BF-Condition)",
+		"body": [
+		  "PlayerHasNotGameLost\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasNotGameWon": 
+    {
+		"prefix": "PlayerHasNotGameWon (BF-Condition)",
+		"body": [
+		  "PlayerHasNotGameWon\t{Player = \"ALL\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasNotJustPlayedCardId": 
+    {
+		"prefix": "PlayerHasNotJustPlayedCardId (BF-Condition)",
+		"body": [
+		  "PlayerHasNotJustPlayedCardId\t{Player = \"ALL\", CardId = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerHasNotJustPlayedCardPvEType": 
+    {
+		"prefix": "PlayerHasNotJustPlayedCardPvEType (BF-Condition)",
+		"body": [
+		  "PlayerHasNotJustPlayedCardPvEType\t{Player = \"ALL\", PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentAmountIsGreaterOrEqual": 
+    {
+		"prefix": "PlayerMonumentAmountIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerMonumentAmountIsGreaterOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentAmountIsLessOrEqual": 
+    {
+		"prefix": "PlayerMonumentAmountIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerMonumentAmountIsLessOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerMonumentAmountIsNotEqual": 
+    {
+		"prefix": "PlayerMonumentAmountIsNotEqual (BF-Condition)",
+		"body": [
+		  "PlayerMonumentAmountIsNotEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbAmountIsGreaterOrEqual": 
+    {
+		"prefix": "PlayerOrbAmountIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbAmountIsGreaterOrEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbAmountIsLessOrEqual": 
+    {
+		"prefix": "PlayerOrbAmountIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbAmountIsLessOrEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbAmountIsNotEqual": 
+    {
+		"prefix": "PlayerOrbAmountIsNotEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbAmountIsNotEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbBuildInProgressAmountIsGreaterOrEqual": 
+    {
+		"prefix": "PlayerOrbBuildInProgressAmountIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbBuildInProgressAmountIsGreaterOrEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbBuildInProgressAmountIsLessOrEqual": 
+    {
+		"prefix": "PlayerOrbBuildInProgressAmountIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbBuildInProgressAmountIsLessOrEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerOrbBuildInProgressAmountIsNotEqual": 
+    {
+		"prefix": "PlayerOrbBuildInProgressAmountIsNotEqual (BF-Condition)",
+		"body": [
+		  "PlayerOrbBuildInProgressAmountIsNotEqual\t{Player = \"ALL\", Amount = , Power = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadAmountIsGreaterOrEqual": 
+    {
+		"prefix": "PlayerSquadAmountIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerSquadAmountIsGreaterOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadAmountIsLessOrEqual": 
+    {
+		"prefix": "PlayerSquadAmountIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerSquadAmountIsLessOrEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadAmountIsNotEqual": 
+    {
+		"prefix": "PlayerSquadAmountIsNotEqual (BF-Condition)",
+		"body": [
+		  "PlayerSquadAmountIsNotEqual\t{Player = \"ALL\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadFlyingIsNotInRange": 
+    {
+		"prefix": "PlayerSquadFlyingIsNotInRange (BF-Condition)",
+		"body": [
+		  "PlayerSquadFlyingIsNotInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadIsNotInRange": 
+    {
+		"prefix": "PlayerSquadIsNotInRange (BF-Condition)",
+		"body": [
+		  "PlayerSquadIsNotInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerSquadOnGroundIsNotInRange": 
+    {
+		"prefix": "PlayerSquadOnGroundIsNotInRange (BF-Condition)",
+		"body": [
+		  "PlayerSquadOnGroundIsNotInRange\t{Player = \"pl_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerTimerIsNotElapsed": 
+    {
+		"prefix": "PlayerTimerIsNotElapsed (BF-Condition)",
+		"body": [
+		  "PlayerTimerIsNotElapsed\t{Player = \"ALL\", Name = \"pt_\", Seconds = default, Minutes = default}"
+		],
+		"description": ""
+	},
+    
+    "PlayerTimerIsNotRunning": 
+    {
+		"prefix": "PlayerTimerIsNotRunning (BF-Condition)",
+		"body": [
+		  "PlayerTimerIsNotRunning\t{Player = \"ALL\", Name = \"pt_\"}"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueIsGreaterOrEqual": 
+    {
+		"prefix": "PlayerValueIsGreaterOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerValueIsGreaterOrEqual\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueIsLessOrEqual": 
+    {
+		"prefix": "PlayerValueIsLessOrEqual (BF-Condition)",
+		"body": [
+		  "PlayerValueIsLessOrEqual\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "PlayerValueIsNotEqual": 
+    {
+		"prefix": "PlayerValueIsNotEqual (BF-Condition)",
+		"body": [
+		  "PlayerValueIsNotEqual\t{Player = \"ALL\", Name = \"pv_\", Value = }"
+		],
+		"description": ""
+	},
+    
+    "SquadAliveIsBusy": 
+    {
+		"prefix": "SquadAliveIsBusy (BF-Condition)",
+		"body": [
+		  "SquadAliveIsBusy\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadFlyingIsNotInRange": 
+    {
+		"prefix": "SquadFlyingIsNotInRange (BF-Condition)",
+		"body": [
+		  "SquadFlyingIsNotInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadHasNotAbility": 
+    {
+		"prefix": "SquadHasNotAbility (BF-Condition)",
+		"body": [
+		  "SquadHasNotAbility\t{For = \"ALL\", Tag = \"default\", AbilityId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadHasNotAbilityLine": 
+    {
+		"prefix": "SquadHasNotAbilityLine (BF-Condition)",
+		"body": [
+		  "SquadHasNotAbilityLine\t{For = \"ALL\", Tag = \"default\", AbilityLineId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadHasNotHate": 
+    {
+		"prefix": "SquadHasNotHate (BF-Condition)",
+		"body": [
+		  "SquadHasNotHate\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadHasNotMeleeAttackerInRange": 
+    {
+		"prefix": "SquadHasNotMeleeAttackerInRange (BF-Condition)",
+		"body": [
+		  "SquadHasNotMeleeAttackerInRange\t{For = \"ALL\", Tag = \"default\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdIsNotInRange": 
+    {
+		"prefix": "SquadIdIsNotInRange (BF-Condition)",
+		"body": [
+		  "SquadIdIsNotInRange\t{SquadId = , TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleIsNotInRange": 
+    {
+		"prefix": "SquadIdleIsNotInRange (BF-Condition)",
+		"body": [
+		  "SquadIdleIsNotInRange\t{For = \"ALL\", Tag = \"default\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIdleTimerIsNotElapsed": 
+    {
+		"prefix": "SquadIdleTimerIsNotElapsed (BF-Condition)",
+		"body": [
+		  "SquadIdleTimerIsNotElapsed\t{For = \"ALL\", Tag = \"default\", Seconds = default, Minutes = default, ConsiderDeadAsIdle = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsBusy": 
+    {
+		"prefix": "SquadIsBusy (BF-Condition)",
+		"body": [
+		  "SquadIsBusy\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsDead": 
+    {
+		"prefix": "SquadIsDead (BF-Condition)",
+		"body": [
+		  "SquadIsDead\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsNotFighting": 
+    {
+		"prefix": "SquadIsNotFighting (BF-Condition)",
+		"body": [
+		  "SquadIsNotFighting\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsNotInGotoMode": 
+    {
+		"prefix": "SquadIsNotInGotoMode (BF-Condition)",
+		"body": [
+		  "SquadIsNotInGotoMode\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsNotInRange": 
+    {
+		"prefix": "SquadIsNotInRange (BF-Condition)",
+		"body": [
+		  "SquadIsNotInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsNotMountedOnBarrier": 
+    {
+		"prefix": "SquadIsNotMountedOnBarrier (BF-Condition)",
+		"body": [
+		  "SquadIsNotMountedOnBarrier\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadIsNotSpellCasting": 
+    {
+		"prefix": "SquadIsNotSpellCasting (BF-Condition)",
+		"body": [
+		  "SquadIsNotSpellCasting\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadMemberAmountIsDead": 
+    {
+		"prefix": "SquadMemberAmountIsDead (BF-Condition)",
+		"body": [
+		  "SquadMemberAmountIsDead\t{For = \"ALL\", Tag = \"default\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "SquadMemberPercentageIsDead": 
+    {
+		"prefix": "SquadMemberPercentageIsDead (BF-Condition)",
+		"body": [
+		  "SquadMemberPercentageIsDead\t{For = \"ALL\", Tag = \"default\", Percent = }"
+		],
+		"description": ""
+	},
+    
+    "SquadModeIsDisabled": 
+    {
+		"prefix": "SquadModeIsDisabled (BF-Condition)",
+		"body": [
+		  "SquadModeIsDisabled\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadModeIsNotActive": 
+    {
+		"prefix": "SquadModeIsNotActive (BF-Condition)",
+		"body": [
+		  "SquadModeIsNotActive\t{For = \"ALL\", Tag = \"default\", ModeId = }"
+		],
+		"description": ""
+	},
+    
+    "SquadOnGroundIsNotInRange": 
+    {
+		"prefix": "SquadOnGroundIsNotInRange (BF-Condition)",
+		"body": [
+		  "SquadOnGroundIsNotInRange\t{TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "SquadPvETypeAmountIsNotInRange": 
+    {
+		"prefix": "SquadPvETypeAmountIsNotInRange (BF-Condition)",
+		"body": [
+		  "SquadPvETypeAmountIsNotInRange\t{TargetTag = \"\", Range = default, PvEType = \"\", Amount = }"
+		],
+		"description": ""
+	},
+    
+    "SquadPvETypeIsNotInRange": 
+    {
+		"prefix": "SquadPvETypeIsNotInRange (BF-Condition)",
+		"body": [
+		  "SquadPvETypeIsNotInRange\t{TargetTag = \"\", Range = default, PvEType = \"\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadWasNotJustHit": 
+    {
+		"prefix": "SquadWasNotJustHit (BF-Condition)",
+		"body": [
+		  "SquadWasNotJustHit\t{For = \"ALL\", Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadWasNotJustHitByPlayer": 
+    {
+		"prefix": "SquadWasNotJustHitByPlayer (BF-Condition)",
+		"body": [
+		  "SquadWasNotJustHitByPlayer\t{For = \"ALL\", Tag = \"default\", Player = \"pl_\"}"
+		],
+		"description": ""
+	},
+    
+    "SquadWasNotJustHitByTeam": 
+    {
+		"prefix": "SquadWasNotJustHitByTeam (BF-Condition)",
+		"body": [
+		  "SquadWasNotJustHitByTeam\t{For = \"ALL\", Tag = \"default\", Team = \"tm_\"}"
+		],
+		"description": ""
+	},
+    
+    "TeamBuildingIsNotInRange": 
+    {
+		"prefix": "TeamBuildingIsNotInRange (BF-Condition)",
+		"body": [
+		  "TeamBuildingIsNotInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamBuildingKillableIsNotInRange": 
+    {
+		"prefix": "TeamBuildingKillableIsNotInRange (BF-Condition)",
+		"body": [
+		  "TeamBuildingKillableIsNotInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadFlyingIsNotInRange": 
+    {
+		"prefix": "TeamSquadFlyingIsNotInRange (BF-Condition)",
+		"body": [
+		  "TeamSquadFlyingIsNotInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadIsNotInRange": 
+    {
+		"prefix": "TeamSquadIsNotInRange (BF-Condition)",
+		"body": [
+		  "TeamSquadIsNotInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TeamSquadOnGroundIsNotInRange": 
+    {
+		"prefix": "TeamSquadOnGroundIsNotInRange (BF-Condition)",
+		"body": [
+		  "TeamSquadOnGroundIsNotInRange\t{Team = \"tm_\", TargetTag = \"\", Range = default}"
+		],
+		"description": ""
+	},
+    
+    "TutorialEntityIsNotSelected": 
+    {
+		"prefix": "TutorialEntityIsNotSelected (BF-Condition)",
+		"body": [
+		  "TutorialEntityIsNotSelected\t{Tag = \"default\"}"
+		],
+		"description": ""
+	},
+    
+    "TutorialEntityPvETypeIsNotSelected": 
+    {
+		"prefix": "TutorialEntityPvETypeIsNotSelected (BF-Condition)",
+		"body": [
+		  "TutorialEntityPvETypeIsNotSelected\t{PvEType = \"\"}"
+		],
+		"description": ""
+	},
+
+	//Events
+    "OnBuildingNotUnderAttackEvent": 
+    {
+        "prefix": "OnBuildingNotUnderAttackEvent (BF-Event)",
+        "body": [
+            "OnBuildingNotUnderAttackEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, GotoState = \"self\", Tag = \"default\", ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnDeadEvent": 
+    {
+        "prefix": "OnDeadEvent (BF-Event)",
+        "body": [
+            "OnDeadEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnEvent": 
+    {
+        "prefix": "OnEvent (BF-Event)",
+        "body": [
+            "OnEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, GotoState = \"self\", ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnIdleContinueAttackEvent": 
+    {
+        "prefix": "OnIdleContinueAttackEvent (BF-Event)",
+        "body": [
+            "OnIdleContinueAttackEvent",
+			"{",
+			"\tEventName = \"\", Tag = \"default\", TargetTag = \"\", AttackGroupSize = 0, ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnIdleGoHomeEvent": 
+    {
+        "prefix": "OnIdleGoHomeEvent (BF-Event)",
+        "body": [
+            "OnIdleGoHomeEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tTag = \"default\", ",
+			"\tTargetTag = \"\", ",
+			"\tHomeRange = \"default\", ",
+			"\tRun = true, ",
+			"\tDirection = \"default\", ",
+			"\t",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tGoActions =",
+			"\t{",
+			"\t}, ",
+			"\tHomeActions =",
+			"\t{",
+			"\t}, ",
+			"\tOneTimeHomeActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnIntervalEvent": 
+    {
+        "prefix": "OnIntervalEvent (BF-Event)",
+        "body": [
+            "OnIntervalEvent",
+			"{",
+			"\tEventName = \"\",",
+			"\tSeconds = \"default\", ",
+			"\t",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnKeyPressEvent": 
+    {
+        "prefix": "OnKeyPressEvent (BF-Event)",
+        "body": [
+            "OnKeyPressEvent",
+			"{",
+			"\tPlayer = \"\", ",
+			"\tKey = \"\", ",
+			"\tShift = , ",
+			"\tCtrl = , ",
+			"\tAlt = , ",
+			"\t",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, GotoState = \"self\", ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnOneTimeDeadEvent": 
+    {
+        "prefix": "OnOneTimeDeadEvent (BF-Event)",
+        "body": [
+            "OnOneTimeDeadEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnOneTimeEvent": 
+    {
+        "prefix": "OnOneTimeEvent (BF-Event)",
+        "body": [
+            "OnOneTimeEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, ",
+			"\tGotoState = \"self\", ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnOneTimeTimerEvent": 
+    {
+        "prefix": "OnOneTimeTimerEvent (BF-Event)",
+        "body": [
+            "OnOneTimeTimerEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tMinutes = 0, ",
+			"\tSeconds = 5, ",
+			"\t",
+			"\tTimerStartConditions =",
+			"\t{",
+			"\t}, ",
+			"\tTimerStartActions =",
+			"\t{",
+			"\t}, ",
+			"\tTimerElapsedConditions =",
+			"\t{",
+			"\t}, ",
+			"\tTimerElapsedActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnOneTimeKeyPressEvent": 
+    {
+        "prefix": "OnOneTimeKeyPressEvent (BF-Event)",
+        "body": [
+            "OnOneTimeKeyPressEvent",
+			"{",
+			"\tPlayer = \"\", ",
+			"\tKey = \"\", ",
+			"\tShift = , ",
+			"\tCtrl = , ",
+			"\tAlt = ,",
+			"\t ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, GotoState = \"self\", ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnRespawnEvent": 
+    {
+        "prefix": "OnRespawnEvent (BF-Event)",
+        "body": [
+            "OnRespawnEvent",
+			"{",
+			"\tStartDespawned = , ",
+			"\tTargetTag = \"StartPos\", ",
+			"\tRespawnDelayMinutes = 0, ",
+			"\tRespawnDelaySeconds = 0, ",
+			"\tHealthPercent = 100,",
+			"\t ",
+			"\tConditions =",
+			"\t{",
+			"\t}, ",
+			"\tActions =",
+			"\t{",
+			"\t}, ",
+			"\tOnDeathActions =",
+			"\t{",
+			"\t}, GotoState = \"self\", ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnTimerEvent": 
+    {
+        "prefix": "OnTimerEvent (BF-Event)",
+        "body": [
+            "OnTimerEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tMinutes = 0, ",
+			"\tSeconds = 3, ",
+			"\t",
+			"\tTimerStartConditions =",
+			"\t{",
+			"\t}, ",
+			"\tTimerStartActions =",
+			"\t{",
+			"\t}, ",
+			"\tTimerElapsedConditions =",
+			"\t{",
+			"\t}, ",
+			"\tTimerElapsedActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "OnToggleEvent": 
+    {
+        "prefix": "OnToggleEvent (BF-Event)",
+        "body": [
+            "OnToggleEvent",
+			"{",
+			"\tEventName = \"\", ",
+			"\tOnConditions =",
+			"\t{",
+			"\t}, ",
+			"\tOnActions =",
+			"\t{",
+			"\t}, ",
+			"\tOffConditions =",
+			"\t{",
+			"\t}, ",
+			"\tOffActions =",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "State": 
+    {
+        "prefix": "State (BF-State)",
+        "body": [
+            "State",
+			"{",
+			"\tStateName = \"\", ",
+			"\t",
+			"\t--Add Events here ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "Outcries": 
+    {
+        "prefix": "Outcries (BF-Outcries)",
+        "body": [
+            "Outcries",
+			"{",
+			"\tOutcryList = ",
+			"\t{",
+			"\t}, ",
+			"};"
+        ],
+        "description": ""
+    },
+
+	
+    "WP_SpawnWave": 
+    {
+        "prefix": "WP_SpawnWave (BF-WarfarePatterns)",
+        "body": [
+            "WP_SpawnWave",
+			"{",
+			"\tStateName = \"sp_\", ",
+			"\tTargetTag = \"\", \t",
+			"\tDirection = -180, \t",
+			"\tTeam = \"tm_\",, \t",
+			"\tPlayer = \"pl_\", \t",
+			"\tAfterSpawnGotoTargetTag = , \t",
+			"\tSpawnWaveTemplate = , \t",
+			"\tInitialSpawnDelaySeconds = , \t",
+			"\tInitialSpawnDelayMinutes = , \t",
+			"\tSpawnBuilding = , \t\t",
+			"\t",
+			"\tStartConditions = ",
+			"\t{",
+			"\t}, \t",
+			"\tStartActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tFinishActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tExitConditions = ",
+			"\t{",
+			"\t}, \t",
+			"\tExitActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tFinishState = \"self\", \t",
+			"\tExitState = \"self\", \t",
+			"\tDeathState = \"self\", \t",
+			"\tAllowExitBeforeStart = , ",
+			"};",
+			
+        ],
+        "description": ""
+    },
+    
+    "WP_Respawn": 
+    {
+        "prefix": "WP_Respawn (BF-WarfarePatterns)",
+        "body": [
+            "WP_Respawn",
+			"{",
+			"\tStateName = \"\",",
+			"\tTargetTag = \"\", \t",
+			"\tRespawnDelayMinutes = 0, \t",
+			"\tRespawnDelaySeconds = 0, \t \t",
+			"\t",
+			"\tStartConditions = ",
+			"\t{",
+			"\t}, \t",
+			"\tStartActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tFinishActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tExitConditions = ",
+			"\t{",
+			"\t}, \t",
+			"\tExitActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tFinishState = \"self\", \t",
+			"\tExitState = \"self\", \t",
+			"\tDeathState = \"self\", \t",
+			"\tAllowExitBeforeStart = , ",
+			"};",
+			
+        ],
+        "description": ""
+    },
+    
+    "WP_AttackAndPatrolArea": 
+    {
+        "prefix": "WP_AttackAndPatrolArea (BF-WarfarePatterns)",
+        "body": [
+            "WP_AttackAndPatrolArea",
+			"{",
+			"\tTargetTag = \"\", \t",
+			"\tPatrolPoints = , \t",
+			"\tNumPatrolSquads = , \t",
+			"\tStateName = \"\", \t",
+			"\t",
+			"\tStartConditions = ",
+			"\t{",
+			"\t}, \t",
+			"\tStartActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tFinishActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tExitConditions = ",
+			"\t{",
+			"\t}, \t",
+			"\tExitActions = ",
+			"\t{",
+			"\t}, \t",
+			"\tFinishState = \"self\", \t",
+			"\tExitState = \"self\", \t",
+			"\tDeathState = \"self\", \t",
+			"\tAllowExitBeforeStart = , ",
+			"};"
+        ],
+        "description": ""
+    },
+    
+    "SpawnWaveTemplate": 
+    {
+        "prefix": "SpawnWaveTemplate (BF-SpawnWaves)",
+        "body": [
+            "SpawnWaveTemplate",
+			"{",
+			"\t-- default parameters for a whole set of waves with similar combination of Squads",
+			"\tName = \"Wavename\",",
+			"\t",
+			"\t[DifficultyEasy] = ",
+			"\t{",
+			"\t\t[443] = 2, -- Twilight Ant Lion",
+			"\t},",
+			"\t[DifficultyNormal] = ",
+			"\t{",
+			"\t\t[443] = 1, -- Twilight Ant Lion",
+			"\t},",
+			"\t[DifficultyHard] = ",
+			"\t{",
+			"\t\t[443] = 1, -- Twilight Ant Lion",
+			"\t},",
+			"\t[DifficultyVeryHard] = ",
+			"\t{",
+			"\t\t-- [289] = 1, -- Twilight Thug",
+			"\t\t-- [290] = 1, -- Twilight Defenders",
+			"\t},",
+			"}"
+        ],
+        "description": ""
+    },
+    
+    "SpawnWaveEmitter": 
+    {
+        "prefix": "SpawnWaveEmitter (BF-SpawnWaves)",
+        "body": [
+            "SpawnWaveEmitter",
+			"{",
+			"\t-- Global Parameters",
+			"\tGroupName = \"sp_\",",
+			"\tRespawnDelaySeconds = 120,",
+			"\tRespawnDelayMinutes = 0,",
+			"\tSpawnInterval = 3,",
+			"\t",
+			"\t-- Wave Setup",
+			"\tWaves =",
+			"\t{",
+			"\t\t{\t-- wave 1 parameters",
+			"\t\t\tSpawnWaveTemplate = \"a Wavename from Template!\",",
+			"\t\t\tInitialSpawnDelaySeconds = 10,",
+			"\t\t\tInitialSpawnDelayMinutes = 0,",
+			"\t\t},",
+			"\t\t{\t-- wave 2 parameters",
+			"\t\t\tSpawnWaveTemplate = \"a Wavename from Template!\",",
+			"\t\t\tInitialSpawnDelaySeconds = 10,",
+			"\t\t\tInitialSpawnDelayMinutes = 0,",
+			"\t\t},",
+			"\t},",
+			"}"
+        ],
+        "description": ""
+    },
+    
+    
+
+    
+    
+    
+}
