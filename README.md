@@ -1,1 +1,1 @@
-# Vscode lua snippets for BattleForge map scripts.
+Vscode lua snippets for BattleForge map scripts.
