@@ -1,5 +1,4 @@
 {
-	// BF-Actions
     "AbilityDestroy": 
     {
 		"prefix": "AbilityDestroy (BF-Action)",
@@ -5683,10 +5682,5 @@
         ],
         "description": ""
     },
-    
-    
-
-    
-    
-    
+  
 }
